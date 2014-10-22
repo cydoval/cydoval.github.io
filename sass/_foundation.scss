@@ -1,0 +1,32 @@
+body {
+  margin:0px;
+  padding:0px;
+  background-color:#f5f5f5;
+}
+.rainbow {
+  background-image: url("../media/rainbow.jpg");
+  background-clip:border-box;
+  background-attachment:scroll;
+  background-position:center top;
+  background-repeat:repeat;
+  height:3px;
+}
+header {
+  margin:4% 0%;
+  .intro {
+    @include inner-content;
+    text-align:center;
+  }
+  .contact {
+    margin-top:-10px;
+  }
+}
+
+article {
+  .words {
+    @include inner-content;
+  }
+}
+footer {
+
+}
