@@ -1,1 +1,1 @@
-www.cydoval.com
+cydoval.com
