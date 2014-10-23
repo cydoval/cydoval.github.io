@@ -180,15 +180,15 @@ html {
     bottom: 0;
   }
   
-  // &:before {
-  //   $equal-stops: #1abc9c #2ecc71 #3498db #9b59b6 #34495e #f1c40f #e67e22 #e74c3c #ecf0f1 #95a5a6;
+  &:before {
+    $equal-stops: #1abc9c #2ecc71 #3498db #9b59b6 #34495e #f1c40f #e67e22 #e74c3c #ecf0f1 #95a5a6;
   
-  //   // Equal stops
-  //   // background: stripes($equal-stops, $direction);
+    // Equal stops
+    background: stripes($equal-stops, 90deg);
   
-  //   // Random stops
-  //   background: stripes($equal-stops, 90deg, $random: true); 
-  // }
+    // Random stops
+    // background: stripes($equal-stops, 90deg, $random: true); 
+  }
   
   &:after {
     $custom-stops: #1abc9c 10%, #2ecc71 12.5%, #3498db 28%, #9b59b6 35%, #34495e 60%, #f1c40f 69%, #e67e22 83%, #e74c3c 88%, #ecf0f1 96%, #95a5a6 100%;
