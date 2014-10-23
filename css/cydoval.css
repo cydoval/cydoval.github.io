@@ -1,10 +1,10 @@
-/* line 163, ../sass/_dependencies.scss */
+/* line 185, ../sass/_dependencies.scss */
 html {
   position: relative;
   height: 100%;
   background: #333;
 }
-/* line 169, ../sass/_dependencies.scss */
+/* line 190, ../sass/_dependencies.scss */
 html:before, html:after {
   position: absolute;
   content: '';
@@ -13,14 +13,35 @@ html:before, html:after {
   left: 0;
   right: 0;
 }
-/* line 178, ../sass/_dependencies.scss */
+/* line 200, ../sass/_dependencies.scss */
 html:after {
   top: auto;
   bottom: 0;
 }
-/* line 193, ../sass/_dependencies.scss */
+/* line 205, ../sass/_dependencies.scss */
+html:before {
+  background: linear-gradient(90deg, #1abc9c 10.98572%, #2ecc71 10.98572%, #2ecc71 12.59802%, #3498db 12.59802%, #3498db 40.5918%, #9b59b6 40.5918%, #9b59b6 32.33395%, #34495e 32.33395%, #34495e 50.65621%, #f1c40f 50.65621%, #f1c40f 66.64553%, #e67e22 66.64553%, #e67e22 61.09148%, #e74c3c 61.09148%, #e74c3c 80.61511%, #ecf0f1 80.61511%, #ecf0f1 95.6214%, #95a5a6 95.6214%);
+}
+/* line 215, ../sass/_dependencies.scss */
 html:after {
-  background: stripes(#1abc9c 10%, #2ecc71 12.5%, #3498db 28%, #9b59b6 35%, #34495e 60%, #f1c40f 69%, #e67e22 83%, #e74c3c 88%, #ecf0f1 96%, #95a5a6 100%, 90deg);
+  background: linear-gradient(90deg, #1abc9c 10%, #2ecc71 10%, #2ecc71 12.5%, #3498db 12.5%, #3498db 28%, #9b59b6 28%, #9b59b6 35%, #34495e 35%, #34495e 60%, #f1c40f 60%, #f1c40f 69%, #e67e22 69%, #e67e22 83%, #e74c3c 83%, #e74c3c 88%, #ecf0f1 88%, #ecf0f1 96%, #95a5a6 96%);
+}
+
+/* line 223, ../sass/_dependencies.scss */
+body {
+  padding-top: 20px;
+}
+
+/* line 227, ../sass/_dependencies.scss */
+p {
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* line 233, ../sass/_dependencies.scss */
+a {
+  color: white;
 }
 
 /*
@@ -113,7 +134,7 @@ html:after {
   overflow: scroll;
 }
 
-/* line 28, ../sass/_utilities.scss */
+/* line 27, ../sass/_utilities.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -419,7 +440,7 @@ html:after {
   padding-right: 4rem;
 }
 
-/* line 277, ../sass/_utilities.scss */
+/* line 275, ../sass/_utilities.scss */
 .sm-show,
 .md-show,
 .lg-show {
@@ -524,7 +545,7 @@ a {
 }
 /* line 11, ../sass/_typography.scss */
 a:hover {
-  color: #d5610d;
+  color: #D5610D;
 }
 
 /* line 17, ../sass/_typography.scss */
@@ -543,7 +564,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.625;
   margin-top: 1%;
   margin-bottom: 1%;
-  color: #444b58;
+  color: #444B58;
 }
 
 /* line 33, ../sass/_typography.scss */
@@ -555,7 +576,7 @@ h1 {
 h2 {
   font-size: 2.2rem;
   margin-bottom: 0px;
-  color: #5773ac;
+  color: #5773AC;
 }
 
 /* line 41, ../sass/_typography.scss */
@@ -592,7 +613,7 @@ span.title {
 
 /* line 67, ../sass/_typography.scss */
 .orange {
-  color: #d5610d;
+  color: #D5610D;
 }
 
 /* line 1, ../sass/_components.scss */

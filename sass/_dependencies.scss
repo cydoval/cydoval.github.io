@@ -13,7 +13,7 @@
 
 // Colors
 	// Cydoval standard colors
-	$primary-color:		#FB8A02;
+	$primary-color:		#FB8A01;
 	$secondary-color:	#0C95AD; 
 
 	$p-font:		#505662; // p
@@ -46,7 +46,29 @@
     -webkit-transition-property: all;
     -webkit-transition-timing-function: ease;
 }
-
+// html { 
+//   background: none repeat scroll 0 0 #333; 
+//   height: 100%; 
+//   position: relative; 
+//   } 
+//   html:before, html:after { 
+//     content: "";
+//     height: 1em;
+//     left: 0; 
+//     position: absolute; 
+//     right: 0; 
+//     top: 0; 
+//     } 
+//   html:after { 
+//     bottom: 0; 
+//     top: auto; 
+//   } 
+//   html:before { 
+//     background: linear-gradient(90deg, #1abc9c 8.58275%, #2ecc71 8.58275%, #2ecc71 17.5362%, #3498db 17.5362%, #3498db 33.1543%, #9b59b6 33.1543%, #9b59b6 50.6456%, #34495e 50.6456%, #34495e 51.0681%, #f1c40f 51.0681%, #f1c40f 51.3566%, #e67e22 51.3566%, #e67e22 66.0041%, #e74c3c 66.0041%, #e74c3c 86.2023%, #ecf0f1 86.2023%, #ecf0f1 88.1387%, #95a5a6 88.1387%) repeat scroll 0 0 rgba(0, 0, 0, 0); 
+//   } 
+//   html:after { 
+//     background: linear-gradient(90deg, #1abc9c 10%, #2ecc71 10%, #2ecc71 12.5%, #3498db 12.5%, #3498db 28%, #9b59b6 28%, #9b59b6 35%, #34495e 35%, #34495e 60%, #f1c40f 60%, #f1c40f 69%, #e67e22 69%, #e67e22 83%, #e74c3c 83%, #e74c3c 88%, #ecf0f1 88%, #ecf0f1 96%, #95a5a6 96%) repeat scroll 0 0 rgba(0, 0, 0, 0); 
+//   }
 // Custom random function
 // To allow a minimum value
 // ------------------------------------------------------------
@@ -151,14 +173,14 @@
 // ------------------------------------------------------------
 // @return gradient
 
-// @function stripes($colors, $direction: 90deg, $random: false) {
-//   // If lonely color
-//   @if length($colors) == 1 { @return $colors; }
+@function stripes($colors, $direction: 90deg, $random: false) {
+  // If lonely color
+  @if length($colors) == 1 { @return $colors; }
   
-//   // Else
-//   $type: if($random, 'random', if(length(nth($colors, 1)) > 1, 'custom', 'equal'));
-//   @return linear-gradient($direction, call('_stripes-#{$type}-stops', $colors));
-// }
+  // Else
+  $type: if($random, 'random', if(length(nth($colors, 1)) > 1, 'custom', 'equal'));
+  @return linear-gradient($direction, call('_stripes-#{$type}-stops', $colors));
+}
 
 html {
   position: relative;
@@ -180,19 +202,34 @@ html {
     bottom: 0;
   }
   
-  // &:before {
-  //   $equal-stops: #1abc9c #2ecc71 #3498db #9b59b6 #34495e #f1c40f #e67e22 #e74c3c #ecf0f1 #95a5a6;
+  &:before {
+    $equal-stops: #1abc9c #2ecc71 #3498db #9b59b6 #34495e #f1c40f #e67e22 #e74c3c #ecf0f1 #95a5a6;
   
-  //   // Equal stops
-  //   // background: stripes($equal-stops, $direction);
+    // Equal stops
+    // background: stripes($equal-stops, $direction);
   
-  //   // Random stops
-  //   background: stripes($equal-stops, 90deg, $random: true); 
-  // }
+    // Random stops
+    background: stripes($equal-stops, 90deg, $random: true); 
+  }
   
   &:after {
     $custom-stops: #1abc9c 10%, #2ecc71 12.5%, #3498db 28%, #9b59b6 35%, #34495e 60%, #f1c40f 69%, #e67e22 83%, #e74c3c 88%, #ecf0f1 96%, #95a5a6 100%;
+    
     // Custom stops
     background: stripes($custom-stops, 90deg);
   }
+}
+
+body {
+  padding-top: 20px;  
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: white;
 }
