@@ -19,7 +19,7 @@ html:after {
 }
 /* line 204, ../sass/_dependencies.scss */
 html:before {
-  background: linear-gradient(90deg, #1abc9c 15.76175%, #2ecc71 15.76175%, #2ecc71 18.16841%, #3498db 18.16841%, #3498db 40.28036%, #9b59b6 40.28036%, #9b59b6 40.41244%, #34495e 40.41244%, #34495e 60.4975%, #f1c40f 60.4975%, #f1c40f 54.31422%, #e67e22 54.31422%, #e67e22 61.1824%, #e74c3c 61.1824%, #e74c3c 78.47787%, #ecf0f1 78.47787%, #ecf0f1 98.21597%, #95a5a6 98.21597%);
+  background: linear-gradient(90deg, #1abc9c 10.32555%, #2ecc71 10.32555%, #2ecc71 26.51488%, #3498db 26.51488%, #3498db 31.45922%, #9b59b6 31.45922%, #9b59b6 34.01873%, #34495e 34.01873%, #34495e 60.96162%, #f1c40f 60.96162%, #f1c40f 59.87566%, #e67e22 59.87566%, #e67e22 66.77741%, #e74c3c 66.77741%, #e74c3c 87.10292%, #ecf0f1 87.10292%, #ecf0f1 95.16197%, #95a5a6 95.16197%);
 }
 
 /*
@@ -499,7 +499,7 @@ article .words {
 
 /* line 26, ../sass/_foundation.scss */
 .bulbasaur {
-  cursor: url("bulbasaur.cur"), auto;
+  cursor: url("/media/bulbasaur.cur"), auto;
 }
 
 /* line 2, ../sass/_typography.scss */
