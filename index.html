@@ -70,18 +70,7 @@
   </article>
   <footer></footer>
   <script>
-  var cursors = ['auto', 'default', 'none', 'context-menu', 'help', 'pointer', 'progress', 'wait', 'cell', 'crosshair', 'text', 'vertical-text', 'alias', 'copy', 'move', 'no-drop', 'not-allowed', 'all-scroll', 'col-resize', 'row-resize', 'n-resize', 's-resize', 'e-resize', 'w-resize', 'ns-resize', 'ew-resize', 'ne-resize', 'nw-resize', 'se-resize', 'sw-resize', 'nesw-resize', 'nwse-resize', 'url(//s3-us-west-2.amazonaws.com/s.cdpn.io/3174/custom.cur), auto', 'zoom-in', 'zoom-out', 'grab', 'grabbing', '-webkit-grab', '-webkit-grabbing'];
-
-    for (var i = 0; i < cursors.length; i++) {
-        var block = document.createElement('div');
-        var hsl =  'hsl(' + ~~(Math.random() * 360) + ', 50%, 75%)';
-
-        block.innerHTML = block.style.cursor = cursors[i];
-        block.style.backgroundColor = hsl;
-        block.style.padding = '3em';
-
-        document.body.appendChild(block);
-    }
+  var i,c=['auto','pointer','default','none','context-menu','help','progress','wait','cell','crosshair','text','vertical-text','alias','copy','move','no-drop','not-allowed','initial','inherit','n-resize','s-resize','e-resize','w-resize','ns-resize','ew-resize','ne-resize','nw-resize','se-resize','sw-resize','nesw-resize','nwse-resize','col-resize','row-resize','all-scroll','url(bulbasaur.cur), auto','url(squirtle.cur) 0 16, pointer','zoom-in','zoom-out','grab','grabbing','-webkit-grab','-webkit-grabbing'];for(i=0;i<c.length;i++){var d=document.createElement('div'),h='hsl('+~~(Math.random()*360)+',50%,75%)';d.innerHTML=d.style.cursor=c[i];d.style.backgroundColor=h;document.getElementsByTagName('main')[0].appendChild(d);}
   </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
