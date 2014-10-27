@@ -7,7 +7,7 @@ html {
 html:before, html:after {
   position: absolute;
   content: '';
-  height: 1em;
+  height: 5px;
   top: 0;
   left: 0;
   right: 0;
@@ -19,7 +19,7 @@ html:after {
 }
 /* line 204, ../sass/_dependencies.scss */
 html:before {
-  background: linear-gradient(90deg, #1abc9c 10.32555%, #2ecc71 10.32555%, #2ecc71 26.51488%, #3498db 26.51488%, #3498db 31.45922%, #9b59b6 31.45922%, #9b59b6 34.01873%, #34495e 34.01873%, #34495e 60.96162%, #f1c40f 60.96162%, #f1c40f 59.87566%, #e67e22 59.87566%, #e67e22 66.77741%, #e74c3c 66.77741%, #e74c3c 87.10292%, #ecf0f1 87.10292%, #ecf0f1 95.16197%, #95a5a6 95.16197%);
+  background: linear-gradient(90deg, #1abc9c 3.2457%, #2ecc71 3.2457%, #2ecc71 21.50751%, #3498db 21.50751%, #3498db 39.38282%, #9b59b6 39.38282%, #9b59b6 33.55358%, #34495e 33.55358%, #34495e 46.45663%, #f1c40f 46.45663%, #f1c40f 61.10045%, #e67e22 61.10045%, #e67e22 69.44375%, #e74c3c 69.44375%, #e74c3c 85.36666%, #ecf0f1 85.36666%, #ecf0f1 83.86408%, #95a5a6 83.86408%);
 }
 
 /*

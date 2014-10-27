@@ -30,7 +30,7 @@
       <p>Calvin Doval <br/>
         <span class="title">Web Design & Development, Branding, UI, UX, App Design<br/>Based in <a data-src="/media/gg/dance.gif" class="orange">Oakland, CA</a></span>
       </p>
-      <div class="contact"><a class="bulbasaur" style="margin-right:10px" href="https://twitter.com/cydoval" target="_blank"><img alt="twitter" src="media/twitter.svg"/></a><a class="bulbasaur" href="https://www.linkedin.com/pub/calvin-doval/4b/b05/ab" target="_blank"><img alt="twitter" src="media/linkedin.svg"/></a></div>
+      <div class="contact"><a class="bulbasaur" style="margin-right:15px" href="https://twitter.com/cydoval" target="_blank"><img style="cursor: url("bulbasaur.cur"), auto;" alt="twitter" src="media/twitter.svg"/></a><a style="" class="bulbasaur" href="https://www.linkedin.com/pub/calvin-doval/4b/b05/ab" target="_blank"><img alt="twitter" src="media/linkedin.svg"/></a></div>
 
     </div>
   </header>
@@ -68,6 +68,21 @@
       <p>Redesign and website development for RMI a world class viticulture research center</p>
     </div>
   </article>
+  <footer></footer>
+  <script>
+  var cursors = ['auto', 'default', 'none', 'context-menu', 'help', 'pointer', 'progress', 'wait', 'cell', 'crosshair', 'text', 'vertical-text', 'alias', 'copy', 'move', 'no-drop', 'not-allowed', 'all-scroll', 'col-resize', 'row-resize', 'n-resize', 's-resize', 'e-resize', 'w-resize', 'ns-resize', 'ew-resize', 'ne-resize', 'nw-resize', 'se-resize', 'sw-resize', 'nesw-resize', 'nwse-resize', 'url(//s3-us-west-2.amazonaws.com/s.cdpn.io/3174/custom.cur), auto', 'zoom-in', 'zoom-out', 'grab', 'grabbing', '-webkit-grab', '-webkit-grabbing'];
+
+    for (var i = 0; i < cursors.length; i++) {
+        var block = document.createElement('div');
+        var hsl =  'hsl(' + ~~(Math.random() * 360) + ', 50%, 75%)';
+
+        block.innerHTML = block.style.cursor = cursors[i];
+        block.style.backgroundColor = hsl;
+        block.style.padding = '3em';
+
+        document.body.appendChild(block);
+    }
+  </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
