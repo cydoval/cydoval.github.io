@@ -185,7 +185,6 @@
 html {
   position: relative;
   height: 100%;
-  background: #333;
   
   &:before,
   &:after {
@@ -220,16 +219,3 @@ html {
   // }
 }
 
-body {
-  padding-top: 20px;  
-}
-
-p {
-  text-align: center;
-  color: white;
-  font-family: Arial, sans-serif;
-}
-
-a {
-  color: white;
-}

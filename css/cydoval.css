@@ -2,9 +2,8 @@
 html {
   position: relative;
   height: 100%;
-  background: #333;
 }
-/* line 190, ../sass/_dependencies.scss */
+/* line 189, ../sass/_dependencies.scss */
 html:before, html:after {
   position: absolute;
   content: '';
@@ -13,31 +12,14 @@ html:before, html:after {
   left: 0;
   right: 0;
 }
-/* line 200, ../sass/_dependencies.scss */
+/* line 199, ../sass/_dependencies.scss */
 html:after {
   top: auto;
   bottom: 0;
 }
-/* line 205, ../sass/_dependencies.scss */
+/* line 204, ../sass/_dependencies.scss */
 html:before {
-  background: linear-gradient(90deg, #1abc9c 15.18971%, #2ecc71 15.18971%, #2ecc71 23.49722%, #3498db 23.49722%, #3498db 38.48369%, #9b59b6 38.48369%, #9b59b6 45.54456%, #34495e 45.54456%, #34495e 44.00871%, #f1c40f 44.00871%, #f1c40f 61.05737%, #e67e22 61.05737%, #e67e22 65.85233%, #e74c3c 65.85233%, #e74c3c 73.36544%, #ecf0f1 73.36544%, #ecf0f1 81.02536%, #95a5a6 81.02536%);
-}
-
-/* line 223, ../sass/_dependencies.scss */
-body {
-  padding-top: 20px;
-}
-
-/* line 227, ../sass/_dependencies.scss */
-p {
-  text-align: center;
-  color: white;
-  font-family: Arial, sans-serif;
-}
-
-/* line 233, ../sass/_dependencies.scss */
-a {
-  color: white;
+  background: linear-gradient(90deg, #1abc9c 15.76175%, #2ecc71 15.76175%, #2ecc71 18.16841%, #3498db 18.16841%, #3498db 40.28036%, #9b59b6 40.28036%, #9b59b6 40.41244%, #34495e 40.41244%, #34495e 60.4975%, #f1c40f 60.4975%, #f1c40f 54.31422%, #e67e22 54.31422%, #e67e22 61.1824%, #e74c3c 61.1824%, #e74c3c 78.47787%, #ecf0f1 78.47787%, #ecf0f1 98.21597%, #95a5a6 98.21597%);
 }
 
 /*
@@ -488,40 +470,36 @@ a {
 body {
   margin: 0px;
   padding: 0px;
+  padding-bottom: 20px;
   background-color: #f5f5f5;
 }
 
-/* line 6, ../sass/_foundation.scss */
-.rainbow {
-  background-image: url("../media/rainbow.jpg");
-  background-clip: border-box;
-  background-attachment: scroll;
-  background-position: center top;
-  background-repeat: repeat;
-  height: 3px;
-}
-
-/* line 14, ../sass/_foundation.scss */
+/* line 7, ../sass/_foundation.scss */
 header {
   margin: 4% 0%;
 }
-/* line 16, ../sass/_foundation.scss */
+/* line 9, ../sass/_foundation.scss */
 header .intro {
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 20, ../sass/_foundation.scss */
+/* line 13, ../sass/_foundation.scss */
 header .contact {
   margin-top: -10px;
 }
 
-/* line 26, ../sass/_foundation.scss */
+/* line 19, ../sass/_foundation.scss */
 article .words {
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
+}
+
+/* line 26, ../sass/_foundation.scss */
+.bulbasaur {
+  cursor: url("bulbasaur.cur"), auto;
 }
 
 /* line 2, ../sass/_typography.scss */
