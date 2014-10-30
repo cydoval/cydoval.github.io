@@ -7,7 +7,7 @@ html {
 }
 a {
 	text-decoration:none;
-	color:inherit;
+	color:$blue;
 	&:hover {
 		color:$orange;
 	}
@@ -36,7 +36,6 @@ h1 {
 h2 {
 	font-size:2.2rem;
 	margin-bottom:0px;
-	color:$blue;
 }
 h3 {
 	font-size:1.8rem;

@@ -1,9 +1,9 @@
-/* line 185, ../sass/_dependencies.scss */
+/* line 151, ../sass/_dependencies.scss */
 html {
   position: relative;
   height: 100%;
 }
-/* line 189, ../sass/_dependencies.scss */
+/* line 155, ../sass/_dependencies.scss */
 html:before, html:after {
   position: absolute;
   content: '';
@@ -12,14 +12,14 @@ html:before, html:after {
   left: 0;
   right: 0;
 }
-/* line 199, ../sass/_dependencies.scss */
+/* line 165, ../sass/_dependencies.scss */
 html:after {
   top: auto;
   bottom: 0;
 }
-/* line 204, ../sass/_dependencies.scss */
+/* line 170, ../sass/_dependencies.scss */
 html:before {
-  background: linear-gradient(90deg, #1abc9c 3.2457%, #2ecc71 3.2457%, #2ecc71 21.50751%, #3498db 21.50751%, #3498db 39.38282%, #9b59b6 39.38282%, #9b59b6 33.55358%, #34495e 33.55358%, #34495e 46.45663%, #f1c40f 46.45663%, #f1c40f 61.10045%, #e67e22 61.10045%, #e67e22 69.44375%, #e74c3c 69.44375%, #e74c3c 85.36666%, #ecf0f1 85.36666%, #ecf0f1 83.86408%, #95a5a6 83.86408%);
+  background: linear-gradient(90deg, #1abc9c 2.16707%, #2ecc71 2.16707%, #2ecc71 15.28677%, #3498db 15.28677%, #3498db 32.2077%, #9b59b6 32.2077%, #9b59b6 37.83953%, #34495e 37.83953%, #34495e 57.87173%, #f1c40f 57.87173%, #f1c40f 54.83762%, #e67e22 54.83762%, #e67e22 79.12988%, #e74c3c 79.12988%, #e74c3c 88.9153%, #ecf0f1 88.9153%, #ecf0f1 90.5492%, #95a5a6 90.5492%);
 }
 
 /*
@@ -515,7 +515,7 @@ html {
 /* line 8, ../sass/_typography.scss */
 a {
   text-decoration: none;
-  color: inherit;
+  color: #5773AC;
 }
 /* line 11, ../sass/_typography.scss */
 a:hover {
@@ -550,17 +550,16 @@ h1 {
 h2 {
   font-size: 2.2rem;
   margin-bottom: 0px;
-  color: #5773AC;
 }
 
-/* line 41, ../sass/_typography.scss */
+/* line 40, ../sass/_typography.scss */
 h3 {
   font-size: 1.8rem;
   margin-bottom: 0px;
   margin-top: 2.4rem;
 }
 
-/* line 46, ../sass/_typography.scss */
+/* line 45, ../sass/_typography.scss */
 h4 {
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -569,7 +568,7 @@ h4 {
   margin-bottom: 0px;
 }
 
-/* line 53, ../sass/_typography.scss */
+/* line 52, ../sass/_typography.scss */
 p {
   font-family: "fira-sans", sans-serif;
   color: #505662;
@@ -580,12 +579,12 @@ p {
   margin-top: .8rem;
 }
 
-/* line 63, ../sass/_typography.scss */
+/* line 62, ../sass/_typography.scss */
 span.title {
   font-size: 1.4rem;
 }
 
-/* line 67, ../sass/_typography.scss */
+/* line 66, ../sass/_typography.scss */
 .orange {
   color: #D5610D;
 }
