@@ -1,0 +1,627 @@
+
+/* line 151, ../sass/_dependencies.scss */
+html {
+  position: relative;
+  height: 100%;
+}
+/* line 155, ../sass/_dependencies.scss */
+html:before, html:after {
+  position: absolute;
+  content: '';
+  height: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* line 165, ../sass/_dependencies.scss */
+html:after {
+  top: auto;
+  bottom: 0;
+}
+/* line 170, ../sass/_dependencies.scss */
+html:before {
+  background: linear-gradient(90deg, #1abc9c 11.49128%, #2ecc71 11.49128%, #2ecc71 23.921%, #3498db 23.921%, #3498db 31.85807%, #9b59b6 31.85807%, #9b59b6 41.6649%, #34495e 41.6649%, #34495e 51.25091%, #f1c40f 51.25091%, #f1c40f 69.47954%, #e67e22 69.47954%, #e67e22 65.55926%, #e74c3c 65.55926%, #e74c3c 73.05635%, #FFB208 73.05635%, #FFB208 93.80337%, #78BE20 93.80337%);
+}
+
+/*
+
+  Table Object
+  http://jxnblk.github.io/table-object
+
+*/
+/* line 8, ../sass/_table-object.scss */
+.table {
+  display: table;
+  width: 100%;
+}
+
+/* line 13, ../sass/_table-object.scss */
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 18, ../sass/_table-object.scss */
+.table-fixed {
+  table-layout: fixed;
+}
+
+@media (min-width: 40em) {
+  /* line 23, ../sass/_table-object.scss */
+  .sm-table {
+    display: table;
+    width: 100%;
+  }
+
+  /* line 28, ../sass/_table-object.scss */
+  .sm-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+@media (min-width: 52em) {
+  /* line 35, ../sass/_table-object.scss */
+  .md-table {
+    display: table;
+    width: 100%;
+  }
+
+  /* line 40, ../sass/_table-object.scss */
+  .md-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+@media (min-width: 64em) {
+  /* line 47, ../sass/_table-object.scss */
+  .lg-table {
+    display: table;
+    width: 100%;
+  }
+
+  /* line 52, ../sass/_table-object.scss */
+  .lg-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+/*
+    Basscss Utilities
+*/
+/* line 7, ../sass/_utilities.scss */
+.inline {
+  display: inline;
+}
+
+/* line 11, ../sass/_utilities.scss */
+.block {
+  display: block;
+}
+
+/* line 15, ../sass/_utilities.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 19, ../sass/_utilities.scss */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* line 23, ../sass/_utilities.scss */
+.overflow-scroll {
+  overflow: scroll;
+}
+
+/* line 27, ../sass/_utilities.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 33, ../sass/_utilities.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 37, ../sass/_utilities.scss */
+.left {
+  float: left;
+}
+
+/* line 41, ../sass/_utilities.scss */
+.right {
+  float: right;
+}
+
+/* line 45, ../sass/_utilities.scss */
+.fit {
+  max-width: 100%;
+}
+
+/* line 49, ../sass/_utilities.scss */
+.half-width {
+  width: 50%;
+}
+
+/* line 53, ../sass/_utilities.scss */
+.full-width {
+  width: 100%;
+}
+
+/* line 57, ../sass/_utilities.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 61, ../sass/_utilities.scss */
+.regular {
+  font-weight: normal;
+}
+
+/* line 65, ../sass/_utilities.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 69, ../sass/_utilities.scss */
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+/* line 74, ../sass/_utilities.scss */
+.left-align {
+  text-align: left;
+}
+
+/* line 78, ../sass/_utilities.scss */
+.center {
+  text-align: center;
+}
+
+/* line 82, ../sass/_utilities.scss */
+.right-align {
+  text-align: right;
+}
+
+/* line 86, ../sass/_utilities.scss */
+.justify {
+  text-align: justify;
+}
+
+/* line 90, ../sass/_utilities.scss */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* line 94, ../sass/_utilities.scss */
+.m0 {
+  margin: 0;
+}
+
+/* line 98, ../sass/_utilities.scss */
+.mt0 {
+  margin-top: 0;
+}
+
+/* line 102, ../sass/_utilities.scss */
+.mr0 {
+  margin-right: 0;
+}
+
+/* line 106, ../sass/_utilities.scss */
+.mb0 {
+  margin-bottom: 0;
+}
+
+/* line 110, ../sass/_utilities.scss */
+.ml0 {
+  margin-left: 0;
+}
+
+/* line 114, ../sass/_utilities.scss */
+.m1 {
+  margin: .5rem;
+}
+
+/* line 118, ../sass/_utilities.scss */
+.mt1 {
+  margin-top: .5rem;
+}
+
+/* line 122, ../sass/_utilities.scss */
+.mr1 {
+  margin-right: .5rem;
+}
+
+/* line 126, ../sass/_utilities.scss */
+.mb1 {
+  margin-bottom: .5rem;
+}
+
+/* line 130, ../sass/_utilities.scss */
+.ml1 {
+  margin-left: .5rem;
+}
+
+/* line 134, ../sass/_utilities.scss */
+.m2 {
+  margin: 1rem;
+}
+
+/* line 138, ../sass/_utilities.scss */
+.mt2 {
+  margin-top: 1rem;
+}
+
+/* line 142, ../sass/_utilities.scss */
+.mr2 {
+  margin-right: 1rem;
+}
+
+/* line 146, ../sass/_utilities.scss */
+.mb2 {
+  margin-bottom: 1rem;
+}
+
+/* line 150, ../sass/_utilities.scss */
+.ml2 {
+  margin-left: 1rem;
+}
+
+/* line 154, ../sass/_utilities.scss */
+.m3 {
+  margin: 2rem;
+}
+
+/* line 158, ../sass/_utilities.scss */
+.mt3 {
+  margin-top: 2rem;
+}
+
+/* line 162, ../sass/_utilities.scss */
+.mr3 {
+  margin-right: 2rem;
+}
+
+/* line 166, ../sass/_utilities.scss */
+.mb3 {
+  margin-bottom: 2rem;
+}
+
+/* line 170, ../sass/_utilities.scss */
+.ml3 {
+  margin-left: 2rem;
+}
+
+/* line 174, ../sass/_utilities.scss */
+.m4 {
+  margin: 4rem;
+}
+
+/* line 178, ../sass/_utilities.scss */
+.mt4 {
+  margin-top: 4rem;
+}
+
+/* line 182, ../sass/_utilities.scss */
+.mr4 {
+  margin-right: 4rem;
+}
+
+/* line 186, ../sass/_utilities.scss */
+.mb4 {
+  margin-bottom: 4rem;
+}
+
+/* line 190, ../sass/_utilities.scss */
+.ml4 {
+  margin-left: 4rem;
+}
+
+/* line 194, ../sass/_utilities.scss */
+.mxn1 {
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+}
+
+/* line 199, ../sass/_utilities.scss */
+.mxn2 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+/* line 204, ../sass/_utilities.scss */
+.mxn3 {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+/* line 209, ../sass/_utilities.scss */
+.mxn4 {
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+
+/* line 214, ../sass/_utilities.scss */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 219, ../sass/_utilities.scss */
+.p1 {
+  padding: .5rem;
+}
+
+/* line 223, ../sass/_utilities.scss */
+.py1 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+/* line 228, ../sass/_utilities.scss */
+.px1 {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+/* line 233, ../sass/_utilities.scss */
+.p2 {
+  padding: 1rem;
+}
+
+/* line 237, ../sass/_utilities.scss */
+.py2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* line 242, ../sass/_utilities.scss */
+.px2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* line 247, ../sass/_utilities.scss */
+.p3 {
+  padding: 2rem;
+}
+
+/* line 251, ../sass/_utilities.scss */
+.py3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 256, ../sass/_utilities.scss */
+.px3 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* line 261, ../sass/_utilities.scss */
+.p4 {
+  padding: 4rem;
+}
+
+/* line 265, ../sass/_utilities.scss */
+.py4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* line 270, ../sass/_utilities.scss */
+.px4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* line 275, ../sass/_utilities.scss */
+.sm-show,
+.md-show,
+.lg-show {
+  display: none !important;
+}
+
+@media (min-width: 40em) {
+  /* line 282, ../sass/_utilities.scss */
+  .sm-show {
+    display: block !important;
+  }
+}
+@media (min-width: 52em) {
+  /* line 288, ../sass/_utilities.scss */
+  .md-show {
+    display: block !important;
+  }
+}
+@media (min-width: 64em) {
+  /* line 294, ../sass/_utilities.scss */
+  .lg-show {
+    display: block !important;
+  }
+}
+/* line 299, ../sass/_utilities.scss */
+.hide {
+  display: none !important;
+}
+
+@media (min-width: 40em) {
+  /* line 304, ../sass/_utilities.scss */
+  .sm-hide {
+    display: none !important;
+  }
+}
+@media (min-width: 52em) {
+  /* line 310, ../sass/_utilities.scss */
+  .md-hide {
+    display: none !important;
+  }
+}
+@media (min-width: 64em) {
+  /* line 316, ../sass/_utilities.scss */
+  .lg-hide {
+    display: none !important;
+  }
+}
+/* line 1, ../sass/_foundation.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+/* line 7, ../sass/_foundation.scss */
+header {
+  margin: 4% 0%;
+}
+/* line 9, ../sass/_foundation.scss */
+header .intro {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 13, ../sass/_foundation.scss */
+header .contact {
+  margin-top: -10px;
+}
+
+/* line 19, ../sass/_foundation.scss */
+article .words {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 26, ../sass/_foundation.scss */
+.bulbasaur {
+  cursor: url("/media/bulbasaur.cur"), auto;
+}
+
+/* line 2, ../sass/_typography.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 5, ../sass/_typography.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 8, ../sass/_typography.scss */
+a {
+  text-decoration: none;
+  color: #007C88;
+}
+/* line 11, ../sass/_typography.scss */
+a:hover {
+  color: #D5610D;
+}
+
+/* line 17, ../sass/_typography.scss */
+ul li {
+  color: #505662;
+  line-height: 1.625;
+  letter-spacing: .025rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+/* line 25, ../sass/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "fira-sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.625;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: #444B58;
+}
+
+/* line 33, ../sass/_typography.scss */
+h1 {
+  font-size: 2.4rem;
+}
+
+/* line 36, ../sass/_typography.scss */
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0px;
+}
+
+/* line 40, ../sass/_typography.scss */
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+  margin-top: 2.4rem;
+}
+
+/* line 45, ../sass/_typography.scss */
+h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #777777;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 52, ../sass/_typography.scss */
+p {
+  font-family: "fira-sans", sans-serif;
+  color: #505662;
+  line-height: 1.625;
+  letter-spacing: .025rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: .8rem;
+}
+
+/* line 62, ../sass/_typography.scss */
+span.title {
+  font-size: 1.4rem;
+}
+
+/* line 66, ../sass/_typography.scss */
+.orange {
+  color: #D5610D;
+}
+
+/* line 1, ../sass/_components.scss */
+hr {
+  border: 1px solid #c7c8cc;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* line 6, ../sass/_components.scss */
+.giflink.preloaded {
+  transition: color 300ms;
+  color: #ff0000;
+}
+
+@media all and (max-width: 900px) {
+  /* line 4, ../sass/_responsive.scss */
+  header .header_contents .left_head {
+    width: 60%;
+  }
+}
+@media all and (max-width: 800px) {
+  /* line 11, ../sass/_responsive.scss */
+  article {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  /* line 15, ../sass/_responsive.scss */
+  header .intro {
+    width: 70%;
+  }
+}
+/*
+
+
+*/

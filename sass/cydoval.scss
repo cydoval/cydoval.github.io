@@ -1,0 +1,25 @@
+// CAES Starter set up
+// This is the base file that pulls together all the other elements.
+
+@import 'dependencies';			// Global variables and shared styles
+@import 'table-object';
+@import 'utilities';
+
+@import 'foundation';			// Structural CSS
+@import 'typography';			// Responsive styles
+@import 'components';			// Reusable pieces, i.e. icons, buttons
+@import 'regions';				// Page region styles
+@import 'responsive';			// Responsive styles
+
+
+
+
+// -----------------------------------------------------------------
+//
+// For the starter template. You can remove the below from any real proj 
+//
+// -----------------------------------------------------------------
+/*
+
+
+*/

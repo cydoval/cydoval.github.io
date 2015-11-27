@@ -1,0 +1,18 @@
+@media all and (max-width: 900px) { 
+	header {
+		.header_contents {
+			.left_head {
+				width:60%;
+			}
+		}
+	}
+}
+@media all and (max-width: 800px) { 
+	article {
+		padding-left:8%;
+		padding-right:8%;
+	}
+	header .intro {
+		width:70%;
+	}
+}
