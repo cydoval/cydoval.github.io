@@ -1,0 +1,58 @@
+//
+@font-face {
+  font-family: 'klinic_light';
+  src:
+       url('/fonts/klinic_light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/klinic_light.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+// fonts
+
+  $fira-sans:     "fira-sans",sans-serif; // 300 , 400, 50
+    $sans-serif:        'Open Sans', Arial, sans-serif;
+    $serif:             "klinic_light",arial, sans-serif;
+// pretty colors 
+
+    $primary-color:   #007C88;
+    $secondary-color: #D5610D;  
+
+    $primary-font:      #333433; // p,li color in main content
+    $secondary-font:    #5a585c; // p,li color in portlet/sidebar
+    $tertiary-font:     #A6A6A6; // summary, discreet
+
+    $cydoval_gray:      #444B58;  // logo gray
+    
+    $bg-color:          #f8f8f8; // background
+    $borders:           #C8C7CC; // border color
+
+// mixins
+
+@mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (max-width: 1250px) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (max-width: 1000px) { @content ; }
+  }
+  @else if $point == rufus {
+     @media (max-width: 850px) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (max-width: 750px) { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 600px)  { @content ; }
+
+  }
+  @else if $point == smallmobile {
+     @media (max-width: 450px)  { @content ; }
+
+  }
+}
+
+@mixin container {
+    max-width:1200px;
+    width:80%;
+    margin:0 auto;
+    min-width:300px;
+}
