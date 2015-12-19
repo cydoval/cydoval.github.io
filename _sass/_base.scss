@@ -133,5 +133,25 @@ article {
                 top:-4px;
             }
         }
+        .impel_wrapper {
+            top: 48%;
+            left: 50%;
+            border-left: 2px solid $impel;
+            border-top: 2px solid $impel;
+            margin-left: 15px;
+            z-index:1;
+            height:275px;
+            padding-left:1%;
+            &:before {
+                background-color:$impel;
+                left:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$impel;
+                right:0px;
+                top:-4px;
+            }
+        }
     }
 }
