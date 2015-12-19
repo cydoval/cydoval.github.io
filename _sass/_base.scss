@@ -24,6 +24,17 @@ article {
             background: url('/media/bg_timeline.svg') repeat-y center top;
             position: relative;
             height: 1200px;
+            &:after {
+                position: absolute;
+                height: 6px;
+                width: 6px;
+                bottom:-3px;
+                left:50%;
+                margin-left:-3px;
+                background: $bg-dark;
+                content: "";
+                border-radius: 3px;
+            }
         }
         .date {
             position: absolute;
@@ -72,13 +83,13 @@ article {
             }
         }
         .asi_wrapper {
-            top: 10%;
+            top: 13%;
             left: 50%;
             border-left: 2px solid $teal;
             border-top: 2px solid $teal;
-            margin-left: 15px;
+            margin-left: 8px;
             z-index:1;
-            height:400px;
+            height:28%;
             padding-left:1.5%;
             &:before {
                 background-color:$teal;
@@ -99,7 +110,7 @@ article {
             margin-right: 8px;
             z-index:1;
             text-align:right;
-            height:575px;
+            height:50%;
             padding-right:1.5%;
             &:before {
                 background-color:$green;
@@ -120,7 +131,7 @@ article {
             margin-right: 15px;
             z-index:1;
             text-align:right;
-            height:243px;
+            height:13%;
             padding-right:2.5%;
             &:before {
                 background-color:$orange;
@@ -138,9 +149,9 @@ article {
             left: 50%;
             border-left: 2px solid $impel;
             border-top: 2px solid $impel;
-            margin-left: 15px;
+            margin-left: 8px;
             z-index:1;
-            height:275px;
+            height:23%;
             padding-left:1%;
             &:before {
                 background-color:$impel;
@@ -149,6 +160,48 @@ article {
             }
             &:after {
                 background-color:$impel;
+                right:0px;
+                top:-4px;
+            }
+        }
+        .olive_wrapper {
+            top: 64%;
+            right: 50%;
+            border-right: 2px solid $olive;
+            border-top: 2px solid $olive;
+            margin-right: 15px;
+            text-align:right;
+            z-index:1;
+            height:13%;
+            padding-right:2.5%;
+            &:before {
+                background-color:$olive;
+                right:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$olive;
+                left:0px;
+                top:-4px;
+            }
+        }
+        .honey_wrapper {
+            top: 74%;
+            left: 50%;
+            border-left: 2px solid $honey;
+            border-top: 2px solid $honey;
+            margin-left: 8px;
+            text-align:left;
+            z-index:1;
+            height:11%;
+            padding-left:1.5%;
+            &:before {
+                background-color:$honey;
+                left:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$honey;
                 right:0px;
                 top:-4px;
             }

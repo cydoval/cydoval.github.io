@@ -26,7 +26,10 @@
     $teal:            #008EAA;
     $orange:          #DC6106;
     $green:           #1BAB80;
+
     $impel:           #47ABE0;
+    $olive:           #787e12;
+    $honey:           #826cb0;
 
     $primary-font:      #444B59; // p,li color in main content
     $secondary-font:    #5a585c; // p,li color in portlet/sidebar
@@ -68,4 +71,52 @@
     width:80%;
     margin:0 auto;
     min-width:300px;
+}
+.fadeinup {
+  animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: fadeInUp;
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    -webkit-animation-delay: 0s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-name: fadeInUp;
+    -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: .0;
+      -webkit-transform: translateY(10%);
+  }
+  
+  100% {
+      opacity: 1;
+      -webkit-transform: translateY( 0%);
+  }
+}
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity: .0;
+      -moz-transform: translateY(10%);
+  }
+  100% {
+      opacity: 1;
+      -moz-transform: translateY(0%);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: .0;
+      transform: translateY(10%);
+  }
+  100% {
+      opacity: 1;
+        transform: translateY(0%);
+  }
 }

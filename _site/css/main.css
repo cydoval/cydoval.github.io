@@ -5,6 +5,43 @@
 @font-face {
   font-family: 'klinic_medium';
   src: url("/fonts/klinic_medium.woff") format("woff"), url("/fonts/klinic_medium.ttf") format("truetype"); }
+.fadeinup {
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: fadeInUp;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-animation-delay: 0s;
+  -webkit-animation-direction: normal;
+  -webkit-animation-duration: 0.9s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-name: fadeInUp;
+  -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: .0;
+    -webkit-transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%); } }
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity: .0;
+    -moz-transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0%); } }
+@keyframes fadeInUp {
+  0% {
+    opacity: .0;
+    transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0%); } }
 html {
   font-size: 16px; }
 
@@ -116,6 +153,16 @@ article .timeline_wrapper {
     background: url("/media/bg_timeline.svg") repeat-y center top;
     position: relative;
     height: 1200px; }
+    article .timeline_wrapper .timeline_background:after {
+      position: absolute;
+      height: 6px;
+      width: 6px;
+      bottom: -3px;
+      left: 50%;
+      margin-left: -3px;
+      background: #303234;
+      content: "";
+      border-radius: 3px; }
   article .timeline_wrapper .date {
     position: absolute;
     z-index: 2;
@@ -155,13 +202,13 @@ article .timeline_wrapper {
       content: "";
       border-radius: 3px; }
   article .timeline_wrapper .asi_wrapper {
-    top: 10%;
+    top: 13%;
     left: 50%;
     border-left: 2px solid #008EAA;
     border-top: 2px solid #008EAA;
-    margin-left: 15px;
+    margin-left: 8px;
     z-index: 1;
-    height: 400px;
+    height: 28%;
     padding-left: 1.5%; }
     article .timeline_wrapper .asi_wrapper:before {
       background-color: #008EAA;
@@ -179,7 +226,7 @@ article .timeline_wrapper {
     margin-right: 8px;
     z-index: 1;
     text-align: right;
-    height: 575px;
+    height: 50%;
     padding-right: 1.5%; }
     article .timeline_wrapper .spectafy_wrapper:before {
       background-color: #1BAB80;
@@ -197,7 +244,7 @@ article .timeline_wrapper {
     margin-right: 15px;
     z-index: 1;
     text-align: right;
-    height: 243px;
+    height: 13%;
     padding-right: 2.5%; }
     article .timeline_wrapper .give_wrapper:before {
       background-color: #DC6106;
@@ -212,9 +259,9 @@ article .timeline_wrapper {
     left: 50%;
     border-left: 2px solid #47ABE0;
     border-top: 2px solid #47ABE0;
-    margin-left: 15px;
+    margin-left: 8px;
     z-index: 1;
-    height: 275px;
+    height: 23%;
     padding-left: 1%; }
     article .timeline_wrapper .impel_wrapper:before {
       background-color: #47ABE0;
@@ -222,6 +269,42 @@ article .timeline_wrapper {
       bottom: 0px; }
     article .timeline_wrapper .impel_wrapper:after {
       background-color: #47ABE0;
+      right: 0px;
+      top: -4px; }
+  article .timeline_wrapper .olive_wrapper {
+    top: 64%;
+    right: 50%;
+    border-right: 2px solid #787e12;
+    border-top: 2px solid #787e12;
+    margin-right: 15px;
+    text-align: right;
+    z-index: 1;
+    height: 13%;
+    padding-right: 2.5%; }
+    article .timeline_wrapper .olive_wrapper:before {
+      background-color: #787e12;
+      right: -4px;
+      bottom: 0px; }
+    article .timeline_wrapper .olive_wrapper:after {
+      background-color: #787e12;
+      left: 0px;
+      top: -4px; }
+  article .timeline_wrapper .honey_wrapper {
+    top: 74%;
+    left: 50%;
+    border-left: 2px solid #826cb0;
+    border-top: 2px solid #826cb0;
+    margin-left: 8px;
+    text-align: left;
+    z-index: 1;
+    height: 11%;
+    padding-left: 1.5%; }
+    article .timeline_wrapper .honey_wrapper:before {
+      background-color: #826cb0;
+      left: -4px;
+      bottom: 0px; }
+    article .timeline_wrapper .honey_wrapper:after {
+      background-color: #826cb0;
       right: 0px;
       top: -4px; }
 
@@ -458,6 +541,12 @@ input[type="button"].button-primary:focus {
 
 .impel {
   color: #47ABE0; }
+
+.olive {
+  color: #787e12; }
+
+.honey {
+  color: #826cb0; }
 
 nav ul#nav {
   list-style: none; }
