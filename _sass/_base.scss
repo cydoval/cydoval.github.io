@@ -1,18 +1,266 @@
 header {
     background-color: #434343;
     height: auto;
-    padding: 7% 0 1% 0;
-    background: url(/media/scotland.jpg) no-repeat 100%;
+    padding: 4% 0 1.5% 0;
+    margin-bottom: 50px;
+    background: url('/media/scotland.jpg') no-repeat 100%;
     text-align: center;
     img {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 }
 
 article {
-    .words {
-        @include container;
-        width: 55%;
-        margin-top:5%;
+    .timeline_title {
+        text-align: center;
+        font-family: $sans-serif;
+        font-weight: 100;
+    }
+    .timeline_wrapper {
+        position: relative;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        z-index: 1;
+        .timeline_background {
+            background: url('/media/bg_timeline.svg') repeat-y center top;
+            position: relative;
+            height: 1200px;
+            // &:after {
+            //     position: absolute;
+            //     height: 6px;
+            //     width: 6px;
+            //     bottom:-3px;
+            //     left:50%;
+            //     margin-left:-3px;
+            //     background: $bg-dark;
+            //     content: "";
+            //     border-radius: 3px;
+            // }
+        }
+        .date {
+            position: absolute;
+            z-index: 2;
+            color: #fff;
+            background-color: $bg-dark;
+            font-family: $serif-medium;
+            font-size: 2rem;
+            text-align: center;
+            border-radius: 4px;
+            margin: 0 auto;
+            width: 70px;
+            margin-left: -35px;
+            left: 50%;
+        }
+        .date-2016 {
+            top: 0px;
+        }
+        .date-2015 {
+            top: 33%;
+        }
+        .date-2014 {
+            top:66%;
+        }
+        .date-2013 {
+            top:100%;
+        }
+        .date-2012 {
+
+        }
+        .marker {
+            position: absolute;
+            z-index: 2;
+            width: 400px;
+            padding:.5%;
+            &:before
+            {
+                position: absolute;
+                height: 6px;
+                width: 6px;
+                background: black;
+                content: "";
+                border-radius: 3px;
+            }
+            &:after {
+                position: absolute;
+                height: 6px;
+                width: 6px;
+                background: black;
+                content: "";
+                border-radius: 3px;
+            }
+        }
+        .asi_wrapper {
+            top: 11%;
+            left: 50%;
+            border-left: 2px solid $teal;
+            border-top: 2px solid $teal;
+            margin-left: 8px;
+            z-index:1;
+            height:27%;
+            padding-left:1.5%;
+            &:before {
+                background-color:$teal;
+                left:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$teal;
+                right:0px;
+                top:-4px;
+            }
+        }
+        .spectafy_wrapper {
+            top: 11%;
+            right: 50%;
+            border-right: 2px solid $green;
+            border-top: 2px solid $green;
+            margin-right: 8px;
+            z-index:1;
+            text-align:right;
+            height:52%;
+            padding-right:1.5%;
+            &:before {
+                background-color:$green;
+                right:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$green;
+                left:0px;
+                top:-4px;
+            }
+        }
+        .give_wrapper {
+            top: 30%;
+            right: 50%;
+            border-right: 2px solid $orange;
+            border-top: 2px solid $orange;
+            margin-right: 15px;
+            z-index:1;
+            text-align:right;
+            height:13%;
+            padding-right:2.5%;
+            &:before {
+                background-color:$orange;
+                right:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$orange;
+                left:0px;
+                top:-4px;
+            }
+        }
+        .impel_wrapper {
+            top: 48%;
+            left: 50%;
+            border-left: 2px solid $impel;
+            border-top: 2px solid $impel;
+            margin-left: 8px;
+            z-index:1;
+            height:22%;
+            padding-left:1%;
+            &:before {
+                background-color:$impel;
+                left:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$impel;
+                right:0px;
+                top:-4px;
+            }
+        }
+        .olive_wrapper {
+            top: 64%;
+            right: 50%;
+            border-right: 2px solid $olive;
+            border-top: 2px solid $olive;
+            margin-right: 15px;
+            text-align:right;
+            z-index:1;
+            height:10%;
+            padding-right:2.5%;
+            &:before {
+                background-color:$olive;
+                right:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$olive;
+                left:0px;
+                top:-4px;
+            }
+        }
+        .honey_wrapper {
+            top: 73%;
+            left: 50%;
+            border-left: 2px solid $honey;
+            border-top: 2px solid $honey;
+            margin-left: 8px;
+            text-align:left;
+            z-index:1;
+            height:11%;
+            padding-left:1.5%;
+            &:before {
+                background-color:$honey;
+                left:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$honey;
+                right:0px;
+                top:-4px;
+            }
+        }
+        .rmi_wrapper {
+            top: 89%;
+            left: 50%;
+            border-left: 2px solid $rmi;
+            border-top: 2px solid $rmi;
+            margin-left: 8px;
+            text-align:left;
+            width:506px;
+            z-index:1;
+            height:9%;
+            padding-left:1.5%;
+            &:before {
+                background-color:$rmi;
+                left:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$rmi;
+                right:0px;
+                top:-4px;
+            }
+        }
+        .zenso_wrapper {
+            top: 90%;
+            right: 50%;
+            border-right: 2px solid $zenso;
+            border-top: 2px solid $zenso;
+            margin-right: 8px;
+            text-align:right;
+            z-index:1;
+            height:8%;
+            padding-right:1.5%;
+            &:before {
+                background-color:$zenso;
+                right:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$zenso;
+                left:0px;
+                top:-4px;
+            }
+        }
+    }
+}
+footer {
+    margin-top:15%;
+    .footer_contents {
+
     }
 }

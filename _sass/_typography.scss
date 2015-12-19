@@ -59,7 +59,7 @@ h4 {
 	margin-bottom:0px;
 }
 p {
-	font-family:$fira-sans;
+	font-family:$sans-serif;
 	color:$primary-font;
 	line-height:1.625;
 	letter-spacing:.025rem;
@@ -76,5 +76,27 @@ p {
 span {
 	&.title {
 		font-size:1.4rem;
+	}
+}
+.marker {
+	h2 {
+		font-size:1.8rem;
+		font-family: $sans-serif;
+		font-weight: 800;
+		margin-bottom:0px;
+	}
+	p.marker-date {
+		font-size:1.4rem;
+		font-family: $sans-serif;
+		font-weight:300;
+		color:$primary-font;
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	p.marker-description {
+		font-size:1.4rem;
+		font-family: $sans-serif;
+		font-weight:500;
+		color:$primary-font;
 	}
 }
