@@ -2,6 +2,9 @@
 @font-face {
   font-family: 'klinic_light';
   src: url("/fonts/klinic_light.woff") format("woff"), url("/fonts/klinic_light.ttf") format("truetype"); }
+@font-face {
+  font-family: 'klinic_medium';
+  src: url("/fonts/klinic_medium.woff") format("woff"), url("/fonts/klinic_medium.ttf") format("truetype"); }
 html {
   font-size: 16px; }
 
@@ -57,7 +60,7 @@ h4 {
   margin-bottom: 0px; }
 
 p {
-  font-family: "fira-sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #333433;
   line-height: 1.625;
   letter-spacing: .025rem;
@@ -76,19 +79,48 @@ span.title {
 header {
   background-color: #434343;
   height: auto;
-  padding: 7% 0 1% 0;
-  background: url(/media/scotland.jpg) no-repeat 100%;
+  padding: 5% 0 2.5% 0;
+  margin-bottom: 50px;
+  background: url("/media/scotland.jpg") no-repeat 100%;
   text-align: center; }
   header img {
-    margin-top: 100px; }
+    margin-top: 80px; }
 
-article .words {
-  max-width: 1200px;
-  width: 80%;
-  margin: 0 auto;
-  min-width: 300px;
-  width: 55%;
-  margin-top: 5%; }
+article .timeline_title {
+  text-align: center;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 100; }
+article .timeline_wrapper {
+  position: relative;
+  margin-top: 40px;
+  z-index: 1; }
+  article .timeline_wrapper .timeline_background {
+    background: url("/media/bg_timeline.svg") repeat-y center top;
+    position: relative;
+    height: 700px; }
+  article .timeline_wrapper .date {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    background-color: #303234;
+    font-family: "klinic_medium", arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0 auto;
+    width: 70px;
+    margin-left: -35px;
+    left: 50%; }
+  article .timeline_wrapper .date-2016 {
+    top: 0px; }
+  article .timeline_wrapper .date-2015 {
+    top: 30%; }
+  article .timeline_wrapper .marker {
+    position: absolute;
+    z-index: 2; }
+  article .timeline_wrapper .asi_wrapper {
+    top: 0px;
+    left: 50%; }
 
 body {
   padding: 0px;

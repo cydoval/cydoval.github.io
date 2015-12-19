@@ -1,18 +1,57 @@
 header {
     background-color: #434343;
     height: auto;
-    padding: 7% 0 1% 0;
-    background: url(/media/scotland.jpg) no-repeat 100%;
+    padding: 5% 0 2.5% 0;
+    margin-bottom: 50px;
+    background: url('/media/scotland.jpg') no-repeat 100%;
     text-align: center;
     img {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 }
 
 article {
-    .words {
-        @include container;
-        width: 55%;
-        margin-top:5%;
+    .timeline_title {
+        text-align: center;
+        font-family: $sans-serif; 
+        font-weight: 100;
+    }
+    .timeline_wrapper {
+        position: relative;
+        margin-top: 40px;
+        z-index: 1;
+        .timeline_background {
+            background: url('/media/bg_timeline.svg') repeat-y center top;
+            position: relative;
+            height: 700px;
+        }
+        .date {
+            position:absolute;
+            z-index: 2;
+            color:#fff;
+            background-color:$bg-dark;
+            font-family:$serif-medium;
+            font-size:2rem;
+            text-align:center;
+            border-radius:4px;
+            margin:0 auto;
+            width:70px;
+            margin-left:-35px;
+            left:50%;
+        }
+        .date-2016 {
+            top:0px;
+        }
+        .date-2015 {
+            top:30%;
+        }
+        .marker {
+            position: absolute;
+            z-index: 2;
+        }
+        .asi_wrapper {
+            top: 0px;
+            left: 50%;
+        }
     }
 }

@@ -5,12 +5,19 @@
        url('/fonts/klinic_light.woff') format('woff'), /* Pretty Modern Browsers */
        url('/fonts/klinic_light.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
+@font-face {
+  font-family: 'klinic_medium';
+  src:
+       url('/fonts/klinic_medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/klinic_medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 
 // fonts
 
-  $fira-sans:     "fira-sans",sans-serif; // 300 , 400, 50
+    $fira-sans:     "fira-sans",sans-serif; // 300 , 400, 50
     $sans-serif:        'Open Sans', Arial, sans-serif;
     $serif:             "klinic_light",arial, sans-serif;
+    $serif-medium:      "klinic_medium",arial, sans-serif;
 // pretty colors 
 
     $primary-color:   #007C88;
@@ -24,6 +31,7 @@
     
     $bg-color:          #f8f8f8; // background
     $borders:           #C8C7CC; // border color
+    $bg-dark:           #303234; // dark color for timeline
 
 // mixins
 
