@@ -134,7 +134,7 @@ span.title {
 header {
   background-color: #434343;
   height: auto;
-  padding: 5% 0 2.5% 0;
+  padding: 4% 0 1.5% 0;
   margin-bottom: 50px;
   background: url("/media/scotland.jpg") no-repeat 100%;
   text-align: center; }
@@ -148,6 +148,7 @@ article .timeline_title {
 article .timeline_wrapper {
   position: relative;
   margin-top: 40px;
+  margin-bottom: 40px;
   z-index: 1; }
   article .timeline_wrapper .timeline_background {
     background: url("/media/bg_timeline.svg") repeat-y center top;
@@ -336,6 +337,9 @@ article .timeline_wrapper {
       background-color: #2fafff;
       left: 0px;
       top: -4px; }
+
+footer {
+  margin-top: 15%; }
 
 body {
   padding: 0px;
