@@ -24,17 +24,17 @@ article {
             background: url('/media/bg_timeline.svg') repeat-y center top;
             position: relative;
             height: 1200px;
-            &:after {
-                position: absolute;
-                height: 6px;
-                width: 6px;
-                bottom:-3px;
-                left:50%;
-                margin-left:-3px;
-                background: $bg-dark;
-                content: "";
-                border-radius: 3px;
-            }
+            // &:after {
+            //     position: absolute;
+            //     height: 6px;
+            //     width: 6px;
+            //     bottom:-3px;
+            //     left:50%;
+            //     margin-left:-3px;
+            //     background: $bg-dark;
+            //     content: "";
+            //     border-radius: 3px;
+            // }
         }
         .date {
             position: absolute;
@@ -58,6 +58,12 @@ article {
         }
         .date-2014 {
             top:66%;
+        }
+        .date-2013 {
+            top:100%;
+        }
+        .date-2012 {
+
         }
         .marker {
             position: absolute;
@@ -83,13 +89,13 @@ article {
             }
         }
         .asi_wrapper {
-            top: 13%;
+            top: 11%;
             left: 50%;
             border-left: 2px solid $teal;
             border-top: 2px solid $teal;
             margin-left: 8px;
             z-index:1;
-            height:28%;
+            height:27%;
             padding-left:1.5%;
             &:before {
                 background-color:$teal;
@@ -103,14 +109,14 @@ article {
             }
         }
         .spectafy_wrapper {
-            top: 13%;
+            top: 11%;
             right: 50%;
             border-right: 2px solid $green;
             border-top: 2px solid $green;
             margin-right: 8px;
             z-index:1;
             text-align:right;
-            height:50%;
+            height:52%;
             padding-right:1.5%;
             &:before {
                 background-color:$green;
@@ -151,7 +157,7 @@ article {
             border-top: 2px solid $impel;
             margin-left: 8px;
             z-index:1;
-            height:23%;
+            height:22%;
             padding-left:1%;
             &:before {
                 background-color:$impel;
@@ -172,7 +178,7 @@ article {
             margin-right: 15px;
             text-align:right;
             z-index:1;
-            height:13%;
+            height:10%;
             padding-right:2.5%;
             &:before {
                 background-color:$olive;
@@ -186,7 +192,7 @@ article {
             }
         }
         .honey_wrapper {
-            top: 74%;
+            top: 73%;
             left: 50%;
             border-left: 2px solid $honey;
             border-top: 2px solid $honey;
@@ -203,6 +209,49 @@ article {
             &:after {
                 background-color:$honey;
                 right:0px;
+                top:-4px;
+            }
+        }
+        .rmi_wrapper {
+            top: 89%;
+            left: 50%;
+            border-left: 2px solid $rmi;
+            border-top: 2px solid $rmi;
+            margin-left: 8px;
+            text-align:left;
+            width:506px;
+            z-index:1;
+            height:9%;
+            padding-left:1.5%;
+            &:before {
+                background-color:$rmi;
+                left:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$rmi;
+                right:0px;
+                top:-4px;
+            }
+        }
+        .zenso_wrapper {
+            top: 90%;
+            right: 50%;
+            border-right: 2px solid $zenso;
+            border-top: 2px solid $zenso;
+            margin-right: 8px;
+            text-align:right;
+            z-index:1;
+            height:8%;
+            padding-right:1.5%;
+            &:before {
+                background-color:$zenso;
+                right:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$zenso;
+                left:0px;
                 top:-4px;
             }
         }

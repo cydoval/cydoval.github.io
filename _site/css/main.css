@@ -153,16 +153,6 @@ article .timeline_wrapper {
     background: url("/media/bg_timeline.svg") repeat-y center top;
     position: relative;
     height: 1200px; }
-    article .timeline_wrapper .timeline_background:after {
-      position: absolute;
-      height: 6px;
-      width: 6px;
-      bottom: -3px;
-      left: 50%;
-      margin-left: -3px;
-      background: #303234;
-      content: "";
-      border-radius: 3px; }
   article .timeline_wrapper .date {
     position: absolute;
     z-index: 2;
@@ -182,6 +172,8 @@ article .timeline_wrapper {
     top: 33%; }
   article .timeline_wrapper .date-2014 {
     top: 66%; }
+  article .timeline_wrapper .date-2013 {
+    top: 100%; }
   article .timeline_wrapper .marker {
     position: absolute;
     z-index: 2;
@@ -202,13 +194,13 @@ article .timeline_wrapper {
       content: "";
       border-radius: 3px; }
   article .timeline_wrapper .asi_wrapper {
-    top: 13%;
+    top: 11%;
     left: 50%;
     border-left: 2px solid #008EAA;
     border-top: 2px solid #008EAA;
     margin-left: 8px;
     z-index: 1;
-    height: 28%;
+    height: 27%;
     padding-left: 1.5%; }
     article .timeline_wrapper .asi_wrapper:before {
       background-color: #008EAA;
@@ -219,14 +211,14 @@ article .timeline_wrapper {
       right: 0px;
       top: -4px; }
   article .timeline_wrapper .spectafy_wrapper {
-    top: 13%;
+    top: 11%;
     right: 50%;
     border-right: 2px solid #1BAB80;
     border-top: 2px solid #1BAB80;
     margin-right: 8px;
     z-index: 1;
     text-align: right;
-    height: 50%;
+    height: 52%;
     padding-right: 1.5%; }
     article .timeline_wrapper .spectafy_wrapper:before {
       background-color: #1BAB80;
@@ -261,7 +253,7 @@ article .timeline_wrapper {
     border-top: 2px solid #47ABE0;
     margin-left: 8px;
     z-index: 1;
-    height: 23%;
+    height: 22%;
     padding-left: 1%; }
     article .timeline_wrapper .impel_wrapper:before {
       background-color: #47ABE0;
@@ -279,7 +271,7 @@ article .timeline_wrapper {
     margin-right: 15px;
     text-align: right;
     z-index: 1;
-    height: 13%;
+    height: 10%;
     padding-right: 2.5%; }
     article .timeline_wrapper .olive_wrapper:before {
       background-color: #787e12;
@@ -290,7 +282,7 @@ article .timeline_wrapper {
       left: 0px;
       top: -4px; }
   article .timeline_wrapper .honey_wrapper {
-    top: 74%;
+    top: 73%;
     left: 50%;
     border-left: 2px solid #826cb0;
     border-top: 2px solid #826cb0;
@@ -306,6 +298,43 @@ article .timeline_wrapper {
     article .timeline_wrapper .honey_wrapper:after {
       background-color: #826cb0;
       right: 0px;
+      top: -4px; }
+  article .timeline_wrapper .rmi_wrapper {
+    top: 89%;
+    left: 50%;
+    border-left: 2px solid #421b4a;
+    border-top: 2px solid #421b4a;
+    margin-left: 8px;
+    text-align: left;
+    width: 506px;
+    z-index: 1;
+    height: 9%;
+    padding-left: 1.5%; }
+    article .timeline_wrapper .rmi_wrapper:before {
+      background-color: #421b4a;
+      left: -4px;
+      bottom: 0px; }
+    article .timeline_wrapper .rmi_wrapper:after {
+      background-color: #421b4a;
+      right: 0px;
+      top: -4px; }
+  article .timeline_wrapper .zenso_wrapper {
+    top: 90%;
+    right: 50%;
+    border-right: 2px solid #2fafff;
+    border-top: 2px solid #2fafff;
+    margin-right: 8px;
+    text-align: right;
+    z-index: 1;
+    height: 8%;
+    padding-right: 1.5%; }
+    article .timeline_wrapper .zenso_wrapper:before {
+      background-color: #2fafff;
+      right: -4px;
+      bottom: 0px; }
+    article .timeline_wrapper .zenso_wrapper:after {
+      background-color: #2fafff;
+      left: 0px;
       top: -4px; }
 
 body {
@@ -547,6 +576,12 @@ input[type="button"].button-primary:focus {
 
 .honey {
   color: #826cb0; }
+
+.rmi {
+  color: #421b4a; }
+
+.zenso {
+  color: #2fafff; }
 
 nav ul#nav {
   list-style: none; }
