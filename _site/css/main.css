@@ -18,7 +18,7 @@ a {
     color: #D5610D; }
 
 ul li {
-  color: #333433;
+  color: #444B59;
   line-height: 1.625;
   letter-spacing: .025rem;
   font-size: 1.6rem;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.625;
   margin-top: 1%;
   margin-bottom: 1%;
-  color: #333433; }
+  color: #444B59; }
 
 h1 {
   font-size: 2.4rem; }
@@ -55,13 +55,13 @@ h3 {
 h4 {
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: #333433;
+  color: #444B59;
   margin-top: 0px;
   margin-bottom: 0px; }
 
 p {
   font-family: "Open Sans", Arial, sans-serif;
-  color: #333433;
+  color: #444B59;
   line-height: 1.625;
   letter-spacing: .025rem;
   font-size: 1.6rem;
@@ -75,6 +75,24 @@ p {
 
 span.title {
   font-size: 1.4rem; }
+
+.marker h2 {
+  font-size: 1.8rem;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 800;
+  margin-bottom: 0px; }
+.marker p.marker-date {
+  font-size: 1.4rem;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #444B59;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+.marker p.description {
+  font-size: 1.6rem;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 500;
+  color: #444B59; }
 
 header {
   background-color: #434343;
@@ -114,13 +132,17 @@ article .timeline_wrapper {
   article .timeline_wrapper .date-2016 {
     top: 0px; }
   article .timeline_wrapper .date-2015 {
-    top: 30%; }
+    top: 50%; }
   article .timeline_wrapper .marker {
     position: absolute;
-    z-index: 2; }
+    z-index: 2;
+    width: 455px; }
   article .timeline_wrapper .asi_wrapper {
     top: 0px;
-    left: 50%; }
+    left: 50%;
+    border-left: 2px solid #008EAA;
+    border-top: 2px solid #008EAA;
+    margin-left: 10px; }
 
 body {
   padding: 0px;
@@ -343,6 +365,15 @@ input[type="button"].button-primary:focus {
   .btn:hover {
     opacity: .85;
     color: #fff; }
+
+.teal {
+  color: #008EAA; }
+
+.orange {
+  color: #DC6106; }
+
+.green {
+  color: #1BAB80; }
 
 nav ul#nav {
   list-style: none; }

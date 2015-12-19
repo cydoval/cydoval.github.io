@@ -43,15 +43,19 @@ article {
             top:0px;
         }
         .date-2015 {
-            top:30%;
+            top:50%;
         }
         .marker {
             position: absolute;
             z-index: 2;
+            width:455px;
         }
         .asi_wrapper {
             top: 0px;
             left: 50%;
+            border-left:2px solid $teal;
+            border-top:2px solid $teal;
+            margin-left:10px;
         }
     }
 }
