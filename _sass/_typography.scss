@@ -72,6 +72,20 @@ p {
 		font-weight:100;
 		font-family: $sans-serif;
 	}
+	footer & {
+		font-family: $sans-serif;
+		color:$tertiary-font;
+		font-size:14px;
+		border-top:1px solid $borders;
+		display:inline-block;
+		padding:2% 5% 1% 5%;
+		a {
+			color:$tertiary-font;
+			&:hover {
+				color:$teal;
+			}
+		}
+	}
 }
 span {
 	&.title {

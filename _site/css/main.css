@@ -109,6 +109,17 @@ p {
     color: white;
     font-weight: 100;
     font-family: "Open Sans", Arial, sans-serif; }
+  footer p {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #A6A6A6;
+    font-size: 14px;
+    border-top: 1px solid #C8C7CC;
+    display: inline-block;
+    padding: 2% 5% 1% 5%; }
+    footer p a {
+      color: #A6A6A6; }
+      footer p a:hover {
+        color: #008EAA; }
 
 span.title {
   font-size: 1.4rem; }
@@ -153,7 +164,7 @@ article .timeline_wrapper {
   article .timeline_wrapper .timeline_background {
     background: url("/media/bg_timeline.svg") repeat-y center top;
     position: relative;
-    height: 1200px; }
+    height: 1600px; }
   article .timeline_wrapper .date {
     position: absolute;
     z-index: 2;
@@ -194,6 +205,24 @@ article .timeline_wrapper {
       background: black;
       content: "";
       border-radius: 3px; }
+  article .timeline_wrapper .echina_wrapper {
+    top: 4%;
+    left: 50%;
+    border-left: 2px solid #E05D41;
+    border-top: 2px solid #E05D41;
+    margin-left: 8px;
+    z-index: 1;
+    text-align: left;
+    height: 5%;
+    padding-left: 1.5%; }
+    article .timeline_wrapper .echina_wrapper:before {
+      background-color: #E05D41;
+      left: -4px;
+      bottom: 0px; }
+    article .timeline_wrapper .echina_wrapper:after {
+      background-color: #DC6106;
+      right: 0px;
+      top: -4px; }
   article .timeline_wrapper .asi_wrapper {
     top: 11%;
     left: 50%;
@@ -301,7 +330,7 @@ article .timeline_wrapper {
       right: 0px;
       top: -4px; }
   article .timeline_wrapper .rmi_wrapper {
-    top: 89%;
+    top: 90%;
     left: 50%;
     border-left: 2px solid #421b4a;
     border-top: 2px solid #421b4a;
@@ -309,7 +338,7 @@ article .timeline_wrapper {
     text-align: left;
     width: 506px;
     z-index: 1;
-    height: 9%;
+    height: 8%;
     padding-left: 1.5%; }
     article .timeline_wrapper .rmi_wrapper:before {
       background-color: #421b4a;
@@ -320,14 +349,14 @@ article .timeline_wrapper {
       right: 0px;
       top: -4px; }
   article .timeline_wrapper .zenso_wrapper {
-    top: 90%;
+    top: 83%;
     right: 50%;
     border-right: 2px solid #2fafff;
     border-top: 2px solid #2fafff;
     margin-right: 8px;
     text-align: right;
     z-index: 1;
-    height: 8%;
+    height: 11%;
     padding-right: 1.5%; }
     article .timeline_wrapper .zenso_wrapper:before {
       background-color: #2fafff;
@@ -340,6 +369,8 @@ article .timeline_wrapper {
 
 footer {
   margin-top: 15%; }
+  footer .footer_contents {
+    text-align: center; }
 
 body {
   padding: 0px;
@@ -572,6 +603,9 @@ input[type="button"].button-primary:focus {
 .green {
   color: #1BAB80; }
 
+.echina {
+  color: #E05D41; }
+
 .impel {
   color: #47ABE0; }
 
@@ -598,3 +632,47 @@ nav ul#nav {
       margin-right: 10px; }
       nav ul#nav li a:hover {
         color: #00525a; }
+
+@font-face {
+  font-family: 'klinic_light';
+  src: url("/fonts/klinic_light.woff") format("woff"), url("/fonts/klinic_light.ttf") format("truetype"); }
+@font-face {
+  font-family: 'klinic_medium';
+  src: url("/fonts/klinic_medium.woff") format("woff"), url("/fonts/klinic_medium.ttf") format("truetype"); }
+.fadeinup {
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: fadeInUp;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-animation-delay: 0s;
+  -webkit-animation-direction: normal;
+  -webkit-animation-duration: 0.9s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-name: fadeInUp;
+  -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: .0;
+    -webkit-transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%); } }
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity: .0;
+    -moz-transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0%); } }
+@keyframes fadeInUp {
+  0% {
+    opacity: .0;
+    transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0%); } }

@@ -24,7 +24,7 @@ article {
         .timeline_background {
             background: url('/media/bg_timeline.svg') repeat-y center top;
             position: relative;
-            height: 1200px;
+            height: 1600px;
             // &:after {
             //     position: absolute;
             //     height: 6px;
@@ -87,6 +87,27 @@ article {
                 background: black;
                 content: "";
                 border-radius: 3px;
+            }
+        }
+        .echina_wrapper {
+            top: 4%;
+            left: 50%;
+            border-left: 2px solid $echina;
+            border-top: 2px solid $echina;
+            margin-left: 8px;
+            z-index:1;
+            text-align:left;
+            height:5%;
+            padding-left:1.5%;
+            &:before {
+                background-color:$echina;
+                left:-4px;
+                bottom:0px;
+            }
+            &:after {
+                background-color:$orange;
+                right:0px;
+                top:-4px;
             }
         }
         .asi_wrapper {
@@ -214,7 +235,7 @@ article {
             }
         }
         .rmi_wrapper {
-            top: 89%;
+            top: 90%;
             left: 50%;
             border-left: 2px solid $rmi;
             border-top: 2px solid $rmi;
@@ -222,7 +243,7 @@ article {
             text-align:left;
             width:506px;
             z-index:1;
-            height:9%;
+            height:8%;
             padding-left:1.5%;
             &:before {
                 background-color:$rmi;
@@ -236,14 +257,14 @@ article {
             }
         }
         .zenso_wrapper {
-            top: 90%;
+            top: 83%;
             right: 50%;
             border-right: 2px solid $zenso;
             border-top: 2px solid $zenso;
             margin-right: 8px;
             text-align:right;
             z-index:1;
-            height:8%;
+            height:11%;
             padding-right:1.5%;
             &:before {
                 background-color:$zenso;
@@ -261,6 +282,6 @@ article {
 footer {
     margin-top:15%;
     .footer_contents {
-
+        text-align: center;
     }
 }
