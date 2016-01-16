@@ -61,7 +61,6 @@
   }
   @else if $point == mobileonly {
      @media (max-width: 600px)  { @content ; }
-
   }
   @else if $point == smallmobile {
      @media (max-width: 450px)  { @content ; }

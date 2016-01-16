@@ -1,7 +1,7 @@
 header {
     background-color: #434343;
     height: auto;
-    padding: 4% 0 1.5% 0;
+    padding: 4% 5% 1.5% 5%;
     margin-bottom: 50px;
     background: url('/media/scotland.jpg') no-repeat 100%;
     text-align: center;
@@ -25,6 +25,9 @@ article {
             background: url('/media/bg_timeline.svg') repeat-y center top;
             position: relative;
             height: 1600px;
+            @include breakpoint(mobileonly) {
+                height: 3000px;
+            }
             // &:after {
             //     position: absolute;
             //     height: 6px;
@@ -58,21 +61,21 @@ article {
             top: 33%;
         }
         .date-2014 {
-            top:66%;
+            top: 66%;
         }
         .date-2013 {
-            top:100%;
+            top: 100%;
         }
-        .date-2012 {
-
-        }
+        .date-2012 {}
         .marker {
             position: absolute;
             z-index: 2;
             width: 400px;
-            padding:.5%;
-            &:before
-            {
+            padding: .5%;
+            @include breakpoint(laptop) {
+                width: 40%;
+            }
+            &:before {
                 position: absolute;
                 height: 6px;
                 width: 6px;
@@ -95,19 +98,19 @@ article {
             border-left: 2px solid $echina;
             border-top: 2px solid $echina;
             margin-left: 8px;
-            z-index:1;
-            text-align:left;
-            height:5%;
-            padding-left:1.5%;
+            z-index: 1;
+            text-align: left;
+            height: 5%;
+            padding-left: 1.5%;
             &:before {
-                background-color:$echina;
-                left:-4px;
-                bottom:0px;
+                background-color: $echina;
+                left: -4px;
+                bottom: 0px;
             }
             &:after {
-                background-color:$orange;
-                right:0px;
-                top:-4px;
+                background-color: $orange;
+                right: 0px;
+                top: -4px;
             }
         }
         .asi_wrapper {
@@ -116,18 +119,18 @@ article {
             border-left: 2px solid $teal;
             border-top: 2px solid $teal;
             margin-left: 8px;
-            z-index:1;
-            height:27%;
-            padding-left:1.5%;
+            z-index: 1;
+            height: 27%;
+            padding-left: 1.5%;
             &:before {
-                background-color:$teal;
-                left:-4px;
-                bottom:0px;
+                background-color: $teal;
+                left: -4px;
+                bottom: 0px;
             }
             &:after {
-                background-color:$teal;
-                right:0px;
-                top:-4px;
+                background-color: $teal;
+                right: 0px;
+                top: -4px;
             }
         }
         .spectafy_wrapper {
@@ -136,19 +139,19 @@ article {
             border-right: 2px solid $green;
             border-top: 2px solid $green;
             margin-right: 8px;
-            z-index:1;
-            text-align:right;
-            height:52%;
-            padding-right:1.5%;
+            z-index: 1;
+            text-align: right;
+            height: 52%;
+            padding-right: 1.5%;
             &:before {
-                background-color:$green;
-                right:-4px;
-                bottom:0px;
+                background-color: $green;
+                right: -4px;
+                bottom: 0px;
             }
             &:after {
-                background-color:$green;
-                left:0px;
-                top:-4px;
+                background-color: $green;
+                left: 0px;
+                top: -4px;
             }
         }
         .give_wrapper {
@@ -157,19 +160,19 @@ article {
             border-right: 2px solid $orange;
             border-top: 2px solid $orange;
             margin-right: 15px;
-            z-index:1;
-            text-align:right;
-            height:13%;
-            padding-right:2.5%;
+            z-index: 1;
+            text-align: right;
+            height: 13%;
+            padding-right: 2.5%;
             &:before {
-                background-color:$orange;
-                right:-4px;
-                bottom:0px;
+                background-color: $orange;
+                right: -4px;
+                bottom: 0px;
             }
             &:after {
-                background-color:$orange;
-                left:0px;
-                top:-4px;
+                background-color: $orange;
+                left: 0px;
+                top: -4px;
             }
         }
         .impel_wrapper {
@@ -178,18 +181,18 @@ article {
             border-left: 2px solid $impel;
             border-top: 2px solid $impel;
             margin-left: 8px;
-            z-index:1;
-            height:22%;
-            padding-left:1%;
+            z-index: 1;
+            height: 22%;
+            padding-left: 1%;
             &:before {
-                background-color:$impel;
-                left:-4px;
-                bottom:0px;
+                background-color: $impel;
+                left: -4px;
+                bottom: 0px;
             }
             &:after {
-                background-color:$impel;
-                right:0px;
-                top:-4px;
+                background-color: $impel;
+                right: 0px;
+                top: -4px;
             }
         }
         .olive_wrapper {
@@ -198,19 +201,19 @@ article {
             border-right: 2px solid $olive;
             border-top: 2px solid $olive;
             margin-right: 15px;
-            text-align:right;
-            z-index:1;
-            height:10%;
-            padding-right:2.5%;
+            text-align: right;
+            z-index: 1;
+            height: 10%;
+            padding-right: 2.5%;
             &:before {
-                background-color:$olive;
-                right:-4px;
-                bottom:0px;
+                background-color: $olive;
+                right: -4px;
+                bottom: 0px;
             }
             &:after {
-                background-color:$olive;
-                left:0px;
-                top:-4px;
+                background-color: $olive;
+                left: 0px;
+                top: -4px;
             }
         }
         .honey_wrapper {
@@ -219,19 +222,19 @@ article {
             border-left: 2px solid $honey;
             border-top: 2px solid $honey;
             margin-left: 8px;
-            text-align:left;
-            z-index:1;
-            height:11%;
-            padding-left:1.5%;
+            text-align: left;
+            z-index: 1;
+            height: 11%;
+            padding-left: 1.5%;
             &:before {
-                background-color:$honey;
-                left:-4px;
-                bottom:0px;
+                background-color: $honey;
+                left: -4px;
+                bottom: 0px;
             }
             &:after {
-                background-color:$honey;
-                right:0px;
-                top:-4px;
+                background-color: $honey;
+                right: 0px;
+                top: -4px;
             }
         }
         .rmi_wrapper {
@@ -240,20 +243,23 @@ article {
             border-left: 2px solid $rmi;
             border-top: 2px solid $rmi;
             margin-left: 8px;
-            text-align:left;
-            width:506px;
-            z-index:1;
-            height:8%;
-            padding-left:1.5%;
+            text-align: left;
+            width: 506px;
+            z-index: 1;
+            height: 8%;
+            padding-left: 1.5%;
+            @include breakpoint(laptop) {
+                width: 40%;
+            }
             &:before {
-                background-color:$rmi;
-                left:-4px;
-                bottom:0px;
+                background-color: $rmi;
+                left: -4px;
+                bottom: 0px;
             }
             &:after {
-                background-color:$rmi;
-                right:0px;
-                top:-4px;
+                background-color: $rmi;
+                right: 0px;
+                top: -4px;
             }
         }
         .zenso_wrapper {
@@ -262,25 +268,26 @@ article {
             border-right: 2px solid $zenso;
             border-top: 2px solid $zenso;
             margin-right: 8px;
-            text-align:right;
-            z-index:1;
-            height:11%;
-            padding-right:1.5%;
+            text-align: right;
+            z-index: 1;
+            height: 11%;
+            padding-right: 1.5%;
             &:before {
-                background-color:$zenso;
-                right:-4px;
-                bottom:0px;
+                background-color: $zenso;
+                right: -4px;
+                bottom: 0px;
             }
             &:after {
-                background-color:$zenso;
-                left:0px;
-                top:-4px;
+                background-color: $zenso;
+                left: 0px;
+                top: -4px;
             }
         }
     }
 }
+
 footer {
-    margin-top:15%;
+    margin-top: 15%;
     .footer_contents {
         text-align: center;
     }
