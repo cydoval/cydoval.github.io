@@ -8,8 +8,25 @@ header {
     img {
         margin-top: 80px;
     }
+    &.bloghead {
+        height:110px;
+        img {
+            margin-top:20px;
+        }
+    }
 }
-
+main {
+    margin-top: 0.5%;
+    min-height: 300px;
+    .main_contents {
+        @include container;
+        width:40%;
+        // background-color:#fff;
+        // border:1px solid $borders;
+        // border-radius:2px;
+        padding: 1% 2%;
+    }
+}
 article {
     .timeline_title {
         text-align: center;

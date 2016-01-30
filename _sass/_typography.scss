@@ -24,6 +24,9 @@ a {
 }
 
 ul {
+    main & li {
+        list-style: none;
+    }
     li {
         color: $primary-font;
         line-height: 1.625;
@@ -66,9 +69,17 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
+    color:#fff;
+    font-family: $serif;
     margin-bottom: 0px;
-    margin-top: 2.4rem;
+    header & {
+        text-align: center;
+        display:inline;
+        margin-right:10px;
+        margin-left:-51px;
+        vertical-align: text-bottom;
+    }
 }
 
 h4 {

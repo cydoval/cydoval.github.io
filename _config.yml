@@ -7,5 +7,7 @@ url: "http://cydoval.com" # the base hostname & protocol for your site
 twitter_username: cydoval
 github_username:  cydoval
 
+
+paginate: 3
 # Build settings
 markdown: kramdown
