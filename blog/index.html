@@ -7,10 +7,11 @@ layout: default
     <ul class="feed-list">
                 {% for post in site.posts %}
                 <li>
-                    <img class="post_thumbnail" src="{{ post.image }}" srcset="{{ post.srcset }}">
+                    <img class="post_thumbnail" src="{{ post.img-thumb }}" srcset="{{ post.srcset-thumb }}">
                     <h1 class="post_title">
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h1>
+                    <p class="post_location">{{ post.location }}</p>
                     <p class="post_rating">{{ post.rating }}</p>
                     <p class="post_description">{{ post.description }}</p>
                 </li>

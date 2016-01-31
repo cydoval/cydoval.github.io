@@ -172,9 +172,9 @@ header {
   header img {
     margin-top: 80px; }
   header.bloghead {
-    height: 110px; }
+    height: 85px; }
     header.bloghead img {
-      margin-top: 20px; }
+      margin-top: 0px; }
 
 main {
   margin-top: 0.5%;
@@ -621,6 +621,13 @@ input[type="button"].button-primary:focus {
   content: "";
   display: table;
   clear: both; }
+
+.post_thumbnail {
+  float: left;
+  max-width: 45%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 4%; }
 
 .btn {
   padding: 14px 30px 12px;

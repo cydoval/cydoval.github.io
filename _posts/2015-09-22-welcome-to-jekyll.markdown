@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Kitchen 388 - Oakland"
+title:  "Riding House Cafe"
 date:   2015-09-22 16:25:17
-img:	#
+Website: http://www.ridinghousecafe.co.uk
+img-thumb:	/media/benedict/riding-house-thumb.jpg
+srcset-thumb: /media/benedict/riding-house-thumb.jpg 1x, /media/benedict/riding-house-thumb@2x.jpg 2x
+img-full: /media/benedict/riding-house.jpg
+srcset-full: /media/benedict/riding-house.jpg 1x, /media/benedict/riding-house@2x.jpg 2x
+location: London
 rating: A+
 description: Hello
 ---
