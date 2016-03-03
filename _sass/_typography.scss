@@ -69,11 +69,15 @@ h2 {
 }
 
 h3 {
-    font-size: 2.4rem;
-    color:#fff;
-    font-family: $serif;
+    font-size: 1.8rem;
+    font-weight:400;
+    font-family: $fira-sans;
     margin-bottom: 0px;
     header & {
+        font-size:2rem;
+        font-weight:100;
+        font-family: $serif;
+        color:#fff;
         text-align: center;
         display:inline;
         margin-right:10px;

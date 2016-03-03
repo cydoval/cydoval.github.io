@@ -6,30 +6,32 @@
 </description>
     <link>http://cydoval.com/</link>
     <atom:link href="http://cydoval.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jan 2016 16:46:33 -0800</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 16:46:33 -0800</lastBuildDate>
+    <pubDate>Thu, 18 Feb 2016 16:43:39 -0800</pubDate>
+    <lastBuildDate>Thu, 18 Feb 2016 16:43:39 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Riding House Cafe</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;tell-me-about-the-ham-baby&quot;&gt;Tell me about the ham baby!&lt;/h3&gt;
+&lt;p&gt;Some very notable ham cuts on this puppy. Just look at those fat rings and the thick cut! It definitely powered this Benedict to it’s high rating&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h3 id=&quot;hows-the-bread&quot;&gt;Hows the Bread?&lt;/h3&gt;
+&lt;p&gt;Standard - nothing of note positive or negative. It did it’s duty in the line of battle succintly.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h3 id=&quot;give-us-the-egg&quot;&gt;Give us the Egg!&lt;/h3&gt;
+&lt;p&gt;Substandard! There was running white in my running yoke. That’s a major detractor but it wasn’t a game changer.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;hollandaiser&quot;&gt;Hollandaiser&lt;/h3&gt;
+&lt;p&gt;Standard - expect for the fantastic garnish that really tied the dish together color wise.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;sides&quot;&gt;Sides?&lt;/h3&gt;
+&lt;p&gt;We are in England and along with all the other benedict I got in England, this one did not come with potatoes.&lt;/p&gt;
 
+&lt;h3 id=&quot;anything-else&quot;&gt;Anything else?&lt;/h3&gt;
 </description>
         <pubDate>Tue, 22 Sep 2015 09:25:17 -0700</pubDate>
-        <link>http://cydoval.com/2015/09/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://cydoval.com/2015/09/22/welcome-to-jekyll.html</guid>
+        <link>http://cydoval.com/2015/09/22/Riding-House-Cafe.html</link>
+        <guid isPermaLink="true">http://cydoval.com/2015/09/22/Riding-House-Cafe.html</guid>
         
         
       </item>
