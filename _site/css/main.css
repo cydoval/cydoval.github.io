@@ -197,16 +197,20 @@ article .timeline_title {
   font-weight: 100; }
 article .timeline_wrapper {
   position: relative;
-  margin-top: 40px;
-  margin-bottom: 40px;
   z-index: 1; }
+  article .timeline_wrapper.wrapper_one {
+    margin-top: 40px; }
   article .timeline_wrapper .timeline_background {
     background: url("/media/bg_timeline.svg") repeat-y center top;
     position: relative;
-    height: 1600px; }
-    @media (max-width: 600px) {
-      article .timeline_wrapper .timeline_background {
-        height: 3000px; } }
+    min-height: 100px; }
+    article .timeline_wrapper .timeline_background.background_one {
+      height: 1600px; }
+      @media (max-width: 600px) {
+        article .timeline_wrapper .timeline_background.background_one {
+          height: 3000px; } }
+    article .timeline_wrapper .timeline_background.background_two {
+      height: 300px; }
   article .timeline_wrapper .date {
     position: absolute;
     z-index: 2;
@@ -266,6 +270,23 @@ article .timeline_wrapper {
       bottom: 0px; }
     article .timeline_wrapper .echina_wrapper:after {
       background-color: #DC6106;
+      right: 0px;
+      top: -4px; }
+  article .timeline_wrapper .computing_wrapper {
+    top: 16%;
+    left: 50%;
+    border-left: 2px solid #C99700;
+    border-top: 2px solid #C99700;
+    margin-left: 8px;
+    z-index: 1;
+    height: 30%;
+    padding-left: 1.5%; }
+    article .timeline_wrapper .computing_wrapper:before {
+      background-color: #C99700;
+      left: -4px;
+      bottom: 0px; }
+    article .timeline_wrapper .computing_wrapper:after {
+      background-color: #C99700;
       right: 0px;
       top: -4px; }
   article .timeline_wrapper .asi_wrapper {
@@ -657,6 +678,9 @@ input[type="button"].button-primary:focus {
 
 .green {
   color: #1BAB80; }
+
+.computing {
+  color: #C99700; }
 
 .echina {
   color: #E05D41; }

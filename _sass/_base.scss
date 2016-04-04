@@ -33,18 +33,29 @@ article {
         font-family: $sans-serif;
         font-weight: 100;
     }
-    .timeline_wrapper {
+        .timeline_wrapper {
         position: relative;
-        margin-top: 40px;
-        margin-bottom: 40px;
         z-index: 1;
+        &.wrapper_one {
+            margin-top: 40px;
+            // margin-bottom: 40px;
+        }
+
         .timeline_background {
             background: url('/media/bg_timeline.svg') repeat-y center top;
             position: relative;
-            height: 1600px;
-            @include breakpoint(mobileonly) {
-                height: 3000px;
+            min-height:100px;
+            &.background_one {
+                height: 1600px;
+                    @include breakpoint(mobileonly) {
+                    height: 3000px;
+                }
             }
+            &.background_two {
+                height:300px;
+            
+            }
+            
             // &:after {
             //     position: absolute;
             //     height: 6px;
@@ -126,6 +137,26 @@ article {
             }
             &:after {
                 background-color: $orange;
+                right: 0px;
+                top: -4px;
+            }
+        }
+        .computing_wrapper {
+            top: 16%;
+            left: 50%;
+            border-left: 2px solid $computing;
+            border-top: 2px solid $computing;
+            margin-left: 8px;
+            z-index: 1;
+            height: 30%;
+            padding-left: 1.5%;
+            &:before {
+                background-color: $computing;
+                left: -4px;
+                bottom: 0px;
+            }
+            &:after {
+                background-color: $computing;
                 right: 0px;
                 top: -4px;
             }
