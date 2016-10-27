@@ -26,12 +26,17 @@ p {
 p.lead {
   font-size: 2.2rem; }
 
-.cta a {
-  font-size: 2.6rem;
-  margin-right: 10px;
-  color: rgba(33, 37, 45, 0.9); }
-  .cta a:hover {
-    color: #444b58; }
+a {
+  text-decoration: none;
+  color: #9C3F00; }
+  a:hover {
+    color: #833500; }
+  .cta a {
+    font-size: 2.6rem;
+    margin-right: 10px;
+    color: rgba(33, 37, 45, 0.9); }
+    .cta a:hover {
+      color: #9C3F00; }
 
 *,
 *:after,
@@ -54,6 +59,9 @@ p.lead {
     max-width: 700px; }
   .landing__wrapper .right-col {
     text-align: right; }
+    @media (max-width: 640px) {
+      .landing__wrapper .right-col {
+        display: none; } }
 
 html {
   position: relative;

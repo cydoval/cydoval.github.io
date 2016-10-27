@@ -20,6 +20,9 @@
   }
   .right-col {
     text-align: right;
+    @include breakpoint(mobileonly) {
+      display:none;
+    }
   }
   // .left-col {
   //   width:75%;

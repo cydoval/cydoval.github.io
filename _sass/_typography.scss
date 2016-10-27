@@ -22,6 +22,11 @@ p.lead {
 
 }
 a {
+  text-decoration: none;
+  color:$primary-color;
+  &:hover {
+    color:darken($primary-color,5)
+  }
   .cta & {
     font-size:2.6rem;
     margin-right:10px;
