@@ -1,13 +1,25 @@
 # Site settings
-title: The work and thoughts of Calvin Doval
+title: Portolfio - Calvin Doval
 description: > # this means to ignore newlines until "baseurl:"
-  The work of Calvin Doval
+  International Programs brings agricultural knowledge and information to the world. We do training and workshops, research/extension projects, curricula development, sponsor global programs, offer educational opportunities, and capacity building.
+subject: Web Design and Development
+classification: Web Development
+author: cydoval
+designer: cydoval
+replyto: cydoval
+themecolor: 22274d
+repo: "https://github.com/cydoval/"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cydoval.com" # the base hostname & protocol for your site
-twitter_username: cydoval
-github_username:  cydoval
 
+permalink: pretty
 
 paginate: 3
+
 # Build settings
 markdown: kramdown
+
+#gems
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate

@@ -1,125 +1,102 @@
-//
+
 @font-face {
-  font-family: 'klinic_light';
-  src:
-       url('/fonts/klinic_light.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/klinic_light.ttf')  format('truetype'), /* Safari, Android, iOS */
+    font-family: 'fira_reg';
+    src:
+    url('/media/fonts/FiraSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/media/fonts/FiraSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'klinic_medium';
-  src:
-       url('/fonts/klinic_medium.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/klinic_medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+    font-family: 'fira_light';
+    src:
+    url('/media/fonts/FiraSans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/media/fonts/FiraSans-Light.ttf') format('truetype'), /* Safari, Android, iOS */
 }
+@font-face {
+    font-family: 'fira_bold';
+    src:
+    url('/media/fonts/FiraSans-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/media/fonts/FiraSans-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+    $fira-reg:          'fira_reg', arial, sans-serif;//
+    $fira-light:        'fira_light', sans-serif;//
+    $fira-bold:         'fira_bold', arial, sans-serif;//
 
-// fonts
 
-    $fira-sans:     "fira-sans",sans-serif; // 300 , 400, 50
-    $sans-serif:        "ff-tisa-sans-web-pro", Arial, sans-serif;//400 700
-    $serif:             "klinic_light",arial, sans-serif;
-    $serif-medium:      "klinic_medium",arial, sans-serif;
-// pretty colors 
+$primary-color: #444b58;
+$secondary-color: #C99700;
 
-    $primary-color:   #007C88;
-    $secondary-color: #D5610D;  
+$borders: #c7c8cc;
+$bg-color: #F8F9FA;
 
-    $teal:            #008EAA;
-    $orange:          #DC6106;
-    $green:           #1BAB80;
-
-    $computing:       #C99700;
-    $echina:          #E05D41;
-    $impel:           #47ABE0;
-    $olive:           #787e12;
-    $honey:           #826cb0;
-    $rmi:             #421b4a;
-    $zenso:           #2fafff;
-
-    $primary-font:      #444B59; // p,li color in main content
-    $secondary-font:    #5a585c; // p,li color in portlet/sidebar
-    $tertiary-font:     #A6A6A6; // summary, discreet
-
-    $cydoval_gray:      #444B58;  // logo gray
-    
-    $bg-color:          #f8f8f8; // background
-    $borders:           #C8C7CC; // border color
-    $bg-dark:           #303234; // dark color for timeline
+$primary-font: rgba(33,37,45,.9);
+$secondary-font: rgba(33,37,45,.6);
 
 // mixins
-
 @mixin breakpoint($point) {
-   @if $point == desktop {
-     @media (max-width: 1250px) { @content ; }
-  }
-   @else if $point == laptop {
-     @media (max-width: 1000px) { @content ; }
-  }
-  @else if $point == rufus {
-     @media (max-width: 850px) { @content ; }
-  }
-    @else if $point == tablet {
-     @media (max-width: 750px) { @content ; }
-  }
-  @else if $point == mobileonly {
-     @media (max-width: 600px)  { @content ; }
-  }
-  @else if $point == smallmobile {
-     @media (max-width: 450px)  { @content ; }
+    @if $point==hdres {
+        @media (max-width:1600px){
+            @content ;
+        }
+    }
+    @if $point==desktop {
+        @media (max-width: 1250px) {
+            @content ;
+        }
+    }
+    @else if $point==laptop {
+        @media (max-width: 1000px) {
+            @content ;
+        }
+    }
+    @else if $point==rufus {
+        @media (max-width: 850px) {
+            @content ;
+        }
+    }
+    @else if $point==tablet {
+        @media (max-width: 750px) {
+            @content ;
+        }
+    }
+    @else if $point==mobileonly {
+        @media (max-width: 640px) {
+            @content ;
+        }
+    }
+    @else if $point==smallmobile {
+        @media (max-width: 450px) {
+            @content ;
+        }
+    }
+}
 
-  }
+@mixin transitiontime {
+    transition-delay: 0s;
+    transition-duration: 0.75s;
+    transition-property: all;
+    transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.75s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-delay: 0s;
+    -moz-transition-duration: 0.75s;
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease;
+}
+
+
+@mixin transition($values: 0.3s ease-in) {
+    transition: $values;
+    -webkit-transition: $values;
+    -webkit-transform: translateZ(0); // Fix animation in Safari
 }
 
 @mixin container {
-    max-width:1200px;
-    width:80%;
-    margin:0 auto;
-    min-width:300px;
-}
-.fadeinup {
-  animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 0.9s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-name: fadeInUp;
-    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-
-    -webkit-animation-delay: 0s;
-    -webkit-animation-direction: normal;
-    -webkit-animation-duration: 0.9s;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-name: fadeInUp;
-    -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: .0;
-      -webkit-transform: translateY(10%);
-  }
-  
-  100% {
-      opacity: 1;
-      -webkit-transform: translateY( 0%);
-  }
-}
-@-moz-keyframes fadeInUp {
-  0% {
-    opacity: .0;
-      -moz-transform: translateY(10%);
-  }
-  100% {
-      opacity: 1;
-      -moz-transform: translateY(0%);
-  }
-}
-@keyframes fadeInUp {
-  0% {
-    opacity: .0;
-      transform: translateY(10%);
-  }
-  100% {
-      opacity: 1;
-        transform: translateY(0%);
-  }
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px;
+    @include breakpoint(laptop) {
+        width: 90%;
+    }
 }

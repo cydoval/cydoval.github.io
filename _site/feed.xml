@@ -1,40 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The work and thoughts of Calvin Doval</title>
-    <description>The work of Calvin Doval
+    <title>Portolfio - Calvin Doval</title>
+    <description>International Programs brings agricultural knowledge and information to the world. We do training and workshops, research/extension projects, curricula development, sponsor global programs, offer educational opportunities, and capacity building.
 </description>
     <link>http://cydoval.com/</link>
     <atom:link href="http://cydoval.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Apr 2016 20:52:46 -0700</pubDate>
-    <lastBuildDate>Sun, 03 Apr 2016 20:52:46 -0700</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Riding House Cafe</title>
-        <description>&lt;h3 id=&quot;tell-me-about-the-ham-baby&quot;&gt;Tell me about the ham baby!&lt;/h3&gt;
-&lt;p&gt;Some very notable ham cuts on this puppy. Just look at those fat rings and the thick cut! It definitely powered this Benedict to it’s high rating&lt;/p&gt;
-
-&lt;h3 id=&quot;hows-the-bread&quot;&gt;Hows the Bread?&lt;/h3&gt;
-&lt;p&gt;Standard - nothing of note positive or negative. It did it’s duty in the line of battle succintly.&lt;/p&gt;
-
-&lt;h3 id=&quot;give-us-the-egg&quot;&gt;Give us the Egg!&lt;/h3&gt;
-&lt;p&gt;Substandard! There was running white in my running yoke. That’s a major detractor but it wasn’t a game changer.&lt;/p&gt;
-
-&lt;h3 id=&quot;hollandaiser&quot;&gt;Hollandaiser&lt;/h3&gt;
-&lt;p&gt;Standard - expect for the fantastic garnish that really tied the dish together color wise.&lt;/p&gt;
-
-&lt;h3 id=&quot;sides&quot;&gt;Sides?&lt;/h3&gt;
-&lt;p&gt;We are in England and along with all the other benedict I got in England, this one did not come with potatoes.&lt;/p&gt;
-
-&lt;h3 id=&quot;anything-else&quot;&gt;Anything else?&lt;/h3&gt;
-</description>
-        <pubDate>Tue, 22 Sep 2015 09:25:17 -0700</pubDate>
-        <link>http://cydoval.com/2015/09/22/Riding-House-Cafe.html</link>
-        <guid isPermaLink="true">http://cydoval.com/2015/09/22/Riding-House-Cafe.html</guid>
-        
-        
-      </item>
+    <pubDate>Thu, 27 Oct 2016 14:42:55 -0700</pubDate>
+    <lastBuildDate>Thu, 27 Oct 2016 14:42:55 -0700</lastBuildDate>
+    <generator>Jekyll v3.0.5</generator>
     
   </channel>
 </rss>
