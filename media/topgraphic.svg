@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1231px" height="10px" viewBox="0 0 1231 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1600px" height="10px" viewBox="0 0 1600 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>topgraphic</title>
+    <title>topgraphic copy</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard">
-            <g id="topgraphic">
-                <rect id="Rectangle-6" fill="#004987" x="0" y="0" width="1231" height="10"></rect>
-                <polygon id="Rectangle-7" fill="#DAAA00" points="611.103516 0 1231 0 1231 10 619.038147 10"></polygon>
-                <polygon id="Rectangle-9" fill-opacity="0.25" fill="#000000" points="0 0 298.994659 0 307.069214 10 0 10"></polygon>
-                <polygon id="Rectangle-9-Copy" fill-opacity="0.18993433" fill="#FFFFFF" points="944.930786 0 1231 0 1231 10 952.930786 10"></polygon>
-            </g>
+        <g id="topgraphic-copy">
+            <rect id="Rectangle-6" fill="#004987" x="0" y="0" width="1600" height="10"></rect>
+            <polygon id="Rectangle-7" fill="#DAAA00" points="794.285642 0 1600 0 1600 10 804.598729 10"></polygon>
+            <polygon id="Rectangle-9" fill-opacity="0.25" fill="#000000" points="0 0 388.620191 0 399.115144 10 0 10"></polygon>
+            <polygon id="Rectangle-9-Copy" fill-opacity="0.18993433" fill="#FFFFFF" points="1228.17974 0 1600 0 1600 10 1238.57779 10"></polygon>
         </g>
     </g>
 </svg>
