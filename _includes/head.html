@@ -1,36 +1,46 @@
 <head>
   <!-- le Meta -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="subject" content="{{ site.subject }}">
-  <meta name="classification" content="{{ site.subject }}">
-  <meta name="author" content="{{ site.author }}">
-  <meta name="designer" content="{{ site.designer }}">
-  <meta name="reply-to" content="{{ site.replyto }}">
-  <meta name="theme-color" content="#{{ site.themecolor }}">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="subject" content="{{ site.subject }}" />
+  <meta name="classification" content="{{ site.subject }}" />
+  <meta name="author" content="{{ site.author }}" />
+  <meta name="designer" content="{{ site.designer }}" />
+  <meta name="reply-to" content="{{ site.replyto }}" />
+  <meta name="theme-color" content="#{{ site.themecolor }}" />
   <link rel="image_src" href="/media/thumbnail.jpg" />
-  <meta property="og:image" content="/media/thumbnail.jpg">
-  <link rel="shortcut icon" href="/media/favicon.ico">
+  <meta property="og:image" content="/media/thumbnail.jpg" />
+  <link rel="shortcut icon" href="/media/favicon.ico" />
 
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+  <title>
+    {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+  </title>
+  <meta
+    name="description"
+    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+  />
 
   <!-- le Apple -->
-  <link rel="apple-touch-icon" href="/media/thumbnail.jpg">
-  <link rel="apple-touch-icon" sizes="76x76" href="/media/76-icon.jpg">
-  <link rel="apple-touch-icon" sizes="120x120" href="/media/120-icon.jpg">
-  <link rel="apple-touch-icon" sizes="152x152" href="/media/156-icon.jpg">
-
+  <link rel="apple-touch-icon" href="/media/thumbnail.jpg" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/media/76-icon.jpg" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/media/120-icon.jpg" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/media/156-icon.jpg" />
+  <link rel="apple-touch-icon" sizes="192x192" href="/media/192-icon.jpg" />
+  <link rel="apple-touch-icon" sizes="512x512" href="/media/512-icon.jpg" />
 
   <!-- le CSS -->
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+  />
+  <link
+    rel="canonical"
+    href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  />
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
+  href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 </head>
