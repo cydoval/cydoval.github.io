@@ -6,7 +6,7 @@
 @theme {
   --font-sans: "Fira Sans", Arial, sans-serif;
   --shadow-soft: 0 24px 60px rgba(33, 37, 45, 0.08);
-  --color-main-border: #2a3f3f;
+  --color-main-border: #33302a;
   --main-border: var(--color-main-border);
 }
 
@@ -25,17 +25,17 @@
   [data-theme="caldoval"] {
     color-scheme: dark;
     --color-primary: #e2823f;
-    --color-primary-content: #16282c;
-    --color-secondary: #e7dfa4;
-    --color-secondary-content: #16282c;
-    --color-accent: #2f716c;
-    --color-accent-content: #f3ecd3;
-    --color-neutral: #c1503a;
-    --color-neutral-content: #f6efe0;
-    --color-base-100: #0d1a1f;
-    --color-base-200: #13252b;
-    --color-base-300: #1b3339;
-    --color-base-content: #f1e9d6;
+    --color-primary-content: oklch(20% 0.045 58);
+    --color-secondary: oklch(60% 0.09 84);
+    --color-secondary-content: oklch(15% 0.025 84);
+    --color-accent: oklch(72% 0.08 276);
+    --color-accent-content: oklch(18% 0.03 276);
+    --color-neutral: oklch(88% 0.01 260);
+    --color-neutral-content: oklch(18% 0.01 260);
+    --color-base-100: #10100f;
+    --color-base-200: #171613;
+    --color-base-300: #24211d;
+    --color-base-content: #f3efe7;
     --radius-selector: 0.5rem;
     --radius-field: 0.25rem;
     --radius-box: 0.5rem;
@@ -63,7 +63,7 @@
   }
 
   ::selection {
-    background: rgba(226, 130, 63, 0.3);
+    background: rgba(201, 151, 0, 0.28);
   }
 }
 
