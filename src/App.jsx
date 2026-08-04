@@ -38,7 +38,7 @@ function App() {
             <div className="max-w-2xl text-lg">
               <p className="mb-2">My name is Cal Doval.</p>
               <p>
-                I create websites, brands, and applications for{" "}
+                I create websites for{" "}
                 <a
                   className="text-primary no-underline hover:underline focus-visible:underline"
                   href={caesPortfolioUrl}
