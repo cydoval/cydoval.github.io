@@ -41,8 +41,7 @@ function App() {
             <div className="max-w-2xl text-lg">
               <p className="mb-2">My name is Cal Doval.</p>
               <p>
-                I create websites, develop brands, and manage content
-                applications for{" "}
+                I create websites for{" "}
                 <a
                   className="text-primary no-underline [text-underline-offset:0.16em] hover:underline focus-visible:underline"
                   href={caesPortfolioUrl}
@@ -56,10 +55,7 @@ function App() {
         </div>
 
         <div className="relative z-[1] flex min-h-2 items-center overflow-hidden border-y border-dashed border-main-border bg-base-100 px-[var(--blueprint-gutter)]">
-          <span
-            className="pointer-events-none absolute inset-y-0 right-0 z-0 w-[35%] border-l border-main-border [--hatch-line:color-mix(in_oklab,var(--main-border)_72%,transparent)] bg-[repeating-linear-gradient(120deg,transparent_0,transparent_0.48rem,var(--hatch-line)_0.48rem,var(--hatch-line)_0.58rem,transparent_0.58rem,transparent_0.75rem)] max-sm:w-[42%]"
-            aria-hidden="true"
-          />
+          <span className="blueprint-hatch" aria-hidden="true" />
           <a
             className="btn btn-primary relative z-[1] my-2"
             href={githubUrl}
