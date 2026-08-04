@@ -1,16 +1,13 @@
 import { Github } from "lucide-react";
 import Logo from "./Logo";
 
-const caesPortfolioUrl = "https://computing.caes.ucdavis.edu/portfolio";
+const caesPortfolioUrl = "https://computing.caes.ucdavis.edu/";
 const githubUrl = "https://github.com/cydoval";
 
 function App() {
   return (
     <main className="blueprint-page min-h-svh overflow-hidden bg-base-100 text-base-content">
-      <section
-        className="blueprint-frame"
-        aria-labelledby="intro-title"
-      >
+      <section className="blueprint-frame" aria-labelledby="intro-title">
         <span
           className="blueprint-node blueprint-node--top-left"
           aria-hidden="true"
@@ -43,12 +40,12 @@ function App() {
               <p>
                 I create websites for{" "}
                 <a
-                  className="text-primary no-underline [text-underline-offset:0.16em] hover:underline focus-visible:underline"
+                  className="text-primary no-underline hover:underline focus-visible:underline"
                   href={caesPortfolioUrl}
                 >
                   UC Davis College of Agricultural and Environmental Sciences
                 </a>{" "}
-                and occasionally other companies.
+                , and occasionally other companies.
               </p>
             </div>
           </div>
