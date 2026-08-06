@@ -1,13 +1,13 @@
 # Cal Doval
 
-Personal site for [cydoval.com](https://cydoval.com), now built with React,
+Personal site for [cydoval.com](https://cydoval.com), built with Astro,
 Vite, Tailwind CSS, and DaisyUI.
 
 ## Cloudflare Pages
 
 Use these settings when connecting the repo in Cloudflare Pages:
 
-- Framework preset: Vite
+- Framework preset: Astro
 - Build command: `npm run build`
 - Build output directory: `dist`
 - Node version: `22`

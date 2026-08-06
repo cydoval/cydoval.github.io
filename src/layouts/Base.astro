@@ -1,3 +1,13 @@
+---
+import "../index.css";
+
+interface Props {
+  title?: string;
+}
+
+const { title = "Cal Doval" } = Astro.props;
+---
+
 <!doctype html>
 <html lang="en" data-theme="caldoval">
   <head>
@@ -33,12 +43,13 @@
     <link rel="icon" href="/media/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/media/apple-touch-icon.png" />
     <link rel="canonical" href="https://cydoval.com/" />
-    <title>Cal Doval</title>
+    <title>{title}</title>
     <script
+      is:inline
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-2RDD4S7EX2"
     ></script>
-    <script>
+    <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -48,7 +59,6 @@
     </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <slot />
   </body>
 </html>
