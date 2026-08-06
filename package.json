@@ -7,9 +7,9 @@
     "node": "^20.19.0 || >=22.12.0"
   },
   "scripts": {
-    "dev": "astro dev --host 127.0.0.1",
+    "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview --host 127.0.0.1"
+    "preview": "astro preview"
   },
   "dependencies": {
     "astro": "^7.1.6"
